@@ -1,0 +1,920 @@
+// Universal Pool Extractor - 16 DEX
+// Wallet: 7nwPXZNhBj88jcC22VNBQUYLohTsQWh5VGxWqnAAcvMf
+// Total: 58 pools
+
+[
+  // [1] AlphaQ  Pi9nzTjPxD8DsRfRBGfK...
+  {
+    "pubkey": "Pi9nzTjPxD8DsRfRBGfKYzmefJoJM8TcXu2jyaQjSHm",
+    "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
+    "params": {
+      "addressLookupTableAddress": "GERDuMq2KXct84sG9JUxuRguqfcPvn71gYXg2p3LLHv4",
+      "routingGroup": 2,
+      "tokenAccountA": "GF8SKKobum6UJnhX2mLHePU38htg5vdr9zcY4jH8Pqs2",
+      "tokenAccountB": "F2KCaXcp7AoQtxTDvNEDCyMyWjSCAMWNzcyN9dsPfPs5"
+    }
+  },
+
+  // [2] AlphaQ  2o4369ha3bENAhJDan8m...
+  {
+    "pubkey": "2o4369ha3bENAhJDan8mdRNJjNo6qQ9P5KhUS4QZUVgi",
+    "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
+    "params": {
+      "addressLookupTableAddress": "9N9Chw3edzTnY2bDMpzMZxEXDdgnDCLEF7gvkk4CLQbC",
+      "routingGroup": 2,
+      "tokenAccountA": "3r4tEFt3B67RubZFYPc5vv3j8PEiU3eEh1eZ5EV9dxyj",
+      "tokenAccountB": "F2KCaXcp7AoQtxTDvNEDCyMyWjSCAMWNzcyN9dsPfPs5"
+    }
+  },
+
+  // [3] AlphaQ  hKH9LFREBm3TxTx5Ex6D...
+  {
+    "pubkey": "hKH9LFREBm3TxTx5Ex6D1nHTKEA8ii3CWfhEkB9s21u",
+    "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
+    "params": {
+      "addressLookupTableAddress": "GERDuMq2KXct84sG9JUxuRguqfcPvn71gYXg2p3LLHv4",
+      "routingGroup": 2,
+      "tokenAccountA": "BjVanGXAEmHL677Lj7ywusqE7Uaop3sqYb7kiL2LFiK9",
+      "tokenAccountB": "4xZYFLR2eyo2vrfsGuJZEPsgZafamE9fFPJ5wYJDW6nU"
+    }
+  },
+
+  // [4] AlphaQ  9xPhpwq6GLUkrDBNfXCb...
+  {
+    "pubkey": "9xPhpwq6GLUkrDBNfXCbnSP9ARAMMyUQqgkrqaDW6NLV",
+    "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
+    "params": {
+      "addressLookupTableAddress": "3dcxboYWsTe551HL8B3hvtqsPD4hbgpZTd1TkjWHWiof",
+      "routingGroup": 2,
+      "tokenAccountA": "CQUfYBxF2KFVjYyCPyGa7JCFX9zw2PwmNnECzY3merGA",
+      "tokenAccountB": "F2KCaXcp7AoQtxTDvNEDCyMyWjSCAMWNzcyN9dsPfPs5"
+    }
+  },
+
+  // [5] BisonFi  AfaA4CE8C2DWSHANCqvU...
+  {
+    "pubkey": "AfaA4CE8C2DWSHANCqvU9RWrxRiXCV7KKVSw4cHi68Wn",
+    "owner": "BiSoNHVpsVZW2F7rx2eQ59yQwKxzU5NvBcmKshCSUypi",
+    "params": {
+      "addressLookupTableAddress": "CmdAbggnZ18DeQ8UN3JMxKoWTULTo9cdEQ5KoLvmVudS",
+      "routingGroup": 2,
+      "market": "AfaA4CE8C2DWSHANCqvU9RWrxRiXCV7KKVSw4cHi68Wn",
+      "poolA": "GgSbe8Pbbh2n35gLxB3yjCW8WVUtBQMcLR7Vc2a1Mrnu",
+      "poolB": "FqgDBVQV1GNaty49eoQx1Hyt7receGYuPhSrkKpRCNXK",
+      "tokenAccountA": "GgSbe8Pbbh2n35gLxB3yjCW8WVUtBQMcLR7Vc2a1Mrnu",
+      "tokenAccountB": "FqgDBVQV1GNaty49eoQx1Hyt7receGYuPhSrkKpRCNXK",
+      "tokenmentA": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+      "tokenmentB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "tokenmentA_name": "WETH",
+      "tokenmentB_name": "USDC",
+      "tokenProgramA": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "tokenProgramB": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "sysvarInstructions": "Sysvar1nstructions1111111111111111111111111"
+    }
+  },
+
+  // [6] BisonFi  FJnaiidSLXFweWkgbinx...
+  {
+    "pubkey": "FJnaiidSLXFweWkgbinxEHRykVHsnkzDcYbNDR3RF5LN",
+    "owner": "BiSoNHVpsVZW2F7rx2eQ59yQwKxzU5NvBcmKshCSUypi",
+    "params": {
+      "addressLookupTableAddress": "DttEs7CNMNwtH4gc5cfusPJn3xHvavEt8eAfDtDGTEFc",
+      "routingGroup": 2,
+      "market": "FJnaiidSLXFweWkgbinxEHRykVHsnkzDcYbNDR3RF5LN",
+      "poolA": "C9jjhzojE16zJ296tEPinA35rB1okyMVspE7FnR4idMf",
+      "poolB": "F2zDmA4GLsHtSDtEAFo9wWr5VBHLXtZjYzhRoGybWsFM",
+      "tokenAccountA": "C9jjhzojE16zJ296tEPinA35rB1okyMVspE7FnR4idMf",
+      "tokenAccountB": "F2zDmA4GLsHtSDtEAFo9wWr5VBHLXtZjYzhRoGybWsFM",
+      "tokenmentA": "So11111111111111111111111111111111111111112",
+      "tokenmentB": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "tokenmentA_name": "WSOL",
+      "tokenmentB_name": "USDT",
+      "tokenProgramA": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "tokenProgramB": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "sysvarInstructions": "Sysvar1nstructions1111111111111111111111111"
+    }
+  },
+
+  // [7] BisonFi  8FnX3xo2yYw3EUE6w3nQ...
+  {
+    "pubkey": "8FnX3xo2yYw3EUE6w3nQA4GfXGS9wpK6oj3veJpbFzLo",
+    "owner": "BiSoNHVpsVZW2F7rx2eQ59yQwKxzU5NvBcmKshCSUypi",
+    "params": {
+      "addressLookupTableAddress": "8BNMiq1CM4g3zZbhbWQHn27631FPAJLGMF2c52y3Vs5i",
+      "routingGroup": 2,
+      "market": "8FnX3xo2yYw3EUE6w3nQA4GfXGS9wpK6oj3veJpbFzLo",
+      "poolA": "ATRsNGv2nDw7hSMfkUTBoVUDsFDwN7po7KbecyiGWNB4",
+      "poolB": "2Y7HATmn9aJBcxCskE5V2U2epmjvkZmB51zTJBbhj4cU",
+      "tokenAccountA": "ATRsNGv2nDw7hSMfkUTBoVUDsFDwN7po7KbecyiGWNB4",
+      "tokenAccountB": "2Y7HATmn9aJBcxCskE5V2U2epmjvkZmB51zTJBbhj4cU",
+      "tokenmentA": "So11111111111111111111111111111111111111112",
+      "tokenmentB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "tokenmentA_name": "WSOL",
+      "tokenmentB_name": "USDC",
+      "tokenProgramA": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "tokenProgramB": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "sysvarInstructions": "Sysvar1nstructions1111111111111111111111111"
+    }
+  },
+
+  // [8] BisonFi  DSzgmzz1Ms4qshdeCpE2...
+  {
+    "pubkey": "DSzgmzz1Ms4qshdeCpE2uWenXXyNbkikw3bzfJRAv7JF",
+    "owner": "BiSoNHVpsVZW2F7rx2eQ59yQwKxzU5NvBcmKshCSUypi",
+    "params": {
+      "addressLookupTableAddress": "FsjunVyU4pX7u8VfTRpN6ZFkW4zH2Lhsiy2ZDmawssRQ",
+      "routingGroup": 2,
+      "market": "DSzgmzz1Ms4qshdeCpE2uWenXXyNbkikw3bzfJRAv7JF",
+      "poolA": "9tSTDjLGJWhesGzTPWiVVBJKpf1pX1YbnWFFiom19e8Z",
+      "poolB": "4PeXzhmMDZGoyJ1gWdPxRAS1NXrzdG8e1gnUjqe4n1LP",
+      "tokenAccountA": "9tSTDjLGJWhesGzTPWiVVBJKpf1pX1YbnWFFiom19e8Z",
+      "tokenAccountB": "4PeXzhmMDZGoyJ1gWdPxRAS1NXrzdG8e1gnUjqe4n1LP",
+      "tokenmentA": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+      "tokenmentB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "tokenmentA_name": "?",
+      "tokenmentB_name": "USDC",
+      "tokenProgramA": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "tokenProgramB": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "sysvarInstructions": "Sysvar1nstructions1111111111111111111111111"
+    }
+  },
+
+  // [9] BisonFi  2vPjbPRnz7V1SLGr56Cm...
+  {
+    "pubkey": "2vPjbPRnz7V1SLGr56CmLLc7JspzfSfccWp3Th5KbrMJ",
+    "owner": "BiSoNHVpsVZW2F7rx2eQ59yQwKxzU5NvBcmKshCSUypi",
+    "params": {
+      "addressLookupTableAddress": "G7tjf992UtkEgu7XfYdiQ5DNcvMK1cN4BaWznyYiTM7t",
+      "routingGroup": 2,
+      "market": "2vPjbPRnz7V1SLGr56CmLLc7JspzfSfccWp3Th5KbrMJ",
+      "poolA": "2mWuBGXBcsPpkda9SHGXTMuj4ZxdgD5v3wbEGwtfkF5d",
+      "poolB": "BRgjgFjYJuPaa4wwCnMiYJhCHqbzrrT9iGBG1Cyyj4Fw",
+      "tokenAccountA": "2mWuBGXBcsPpkda9SHGXTMuj4ZxdgD5v3wbEGwtfkF5d",
+      "tokenAccountB": "BRgjgFjYJuPaa4wwCnMiYJhCHqbzrrT9iGBG1Cyyj4Fw",
+      "tokenmentA": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+      "tokenmentB": "",
+      "tokenmentA_name": "cbBTC",
+      "tokenmentB_name": "?",
+      "tokenProgramA": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "tokenProgramB": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "sysvarInstructions": "Sysvar1nstructions1111111111111111111111111"
+    }
+  },
+
+  // [10] Raydium_CLMM  3nMFwZXwY1s1M5s8vYAH...
+  {
+    "pubkey": "3nMFwZXwY1s1M5s8vYAHqd4wGs4iSxXE4LRoUMMYqEgF",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "params": {
+      "addressLookupTableAddress": "5A5XJTxSYiFzmYtMiFwjqH9Cu3Lan6wFsjMuLTSjsGLB",
+      "routingGroup": 2,
+      "tokenAccountA": "AbcuyoPeYnddzFoFQudsiFka8qd6tTwvLgxwtpTKTpKC",
+      "tokenAccountB": "2n6fxuD6PA5NYgEnXXYMh2iWD1JBJ1LGf76kFJAayZmX",
+      "tokenmentA": "So11111111111111111111111111111111111111112",
+      "tokenmentB": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "tokenmentA_name": "WSOL",
+      "tokenmentB_name": "USDT"
+    }
+  },
+
+  // [11] Raydium_CLMM  4LuGwek6Jv4xpGvsQwZX...
+  {
+    "pubkey": "4LuGwek6Jv4xpGvsQwZXonmLuRhrpHtmKVs95bN9EkTm",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "params": {
+      "addressLookupTableAddress": "BcuPcR8GhkjKMormJnTMXy4AbN9wZT9yhYaAm6AF63RY",
+      "routingGroup": 2,
+      "tokenAccountA": "C8hXBtKNCvSU5q44cF1E1jMdeDEWasfpreDKxKZ2qhxQ",
+      "tokenAccountB": "3tC8eaGaXX8aqRRhbS3qVMddJ6egPknC2SkvJpuYn23p",
+      "tokenmentA": "",
+      "tokenmentB": "",
+      "tokenmentA_name": "?",
+      "tokenmentB_name": "?"
+    }
+  },
+
+  // [12] Raydium_CLMM  5LZawn1Pqv8Jd96nq5GP...
+  {
+    "pubkey": "5LZawn1Pqv8Jd96nq5GPVZAz9a7jZWFD66A5JvUodRNL",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "params": {
+      "addressLookupTableAddress": "3KA4B9WChsLZi5Sprgc3bzF14JDqX7P49r6qEKSgXqhu",
+      "routingGroup": 2,
+      "tokenAccountA": "2iUujEg4Js5n1XPpKbBZdivnNXd1HU8V4Pqmrv2RrwW8",
+      "tokenAccountB": "8eaFJbLjzZn5rS9RZeHjHocedrtKMKBouRr8ZYtZyHcs",
+      "tokenmentA": "",
+      "tokenmentB": "",
+      "tokenmentA_name": "?",
+      "tokenmentB_name": "?"
+    }
+  },
+
+  // [13] Raydium_CLMM  CkDV9Eko3KijeRpadFyJ...
+  {
+    "pubkey": "CkDV9Eko3KijeRpadFyJTSi4fiBbCT9d3Vdp9JhsUioM",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "params": {
+      "addressLookupTableAddress": "SDjbjit1BYHDBEXbb6RGwYnhkj7KjyaEYHru3DMd2jN",
+      "routingGroup": 2,
+      "tokenAccountA": "4JpeHcW7rHggrc9v2YW5zG8VMqxrpxMWYKfRiWJicfQa",
+      "tokenAccountB": "381qg5e7RMNZPcJH8c7JttZQ7kxSYE6szGBCqwB2DS5U",
+      "tokenmentA": "",
+      "tokenmentB": "",
+      "tokenmentA_name": "?",
+      "tokenmentB_name": "?"
+    }
+  },
+
+  // [14] Raydium_CLMM  CYbD9RaToYMtWKA7QZyo...
+  {
+    "pubkey": "CYbD9RaToYMtWKA7QZyoLahnHdWq553Vm62Lh6qWtuxq",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "params": {
+      "addressLookupTableAddress": "BDqppwFYeMpUicN9xbfoM7FgRnHVW1uTUtrGA7uG2vQg",
+      "routingGroup": 2,
+      "tokenAccountA": "GviiXg2Xc1xCpyNY36r7h1EAy7uvse5UMkiiyHjRDU6Z",
+      "tokenAccountB": "3bWPj5eepJm8CxUzk5MMFMN2CFJkntxKvbmy4zwwtpJd",
+      "tokenmentA": "So11111111111111111111111111111111111111112",
+      "tokenmentB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "tokenmentA_name": "WSOL",
+      "tokenmentB_name": "USDC"
+    }
+  },
+
+  // [15] Raydium_CLMM  ExcBWu8fGPdJiaF1b1z3...
+  {
+    "pubkey": "ExcBWu8fGPdJiaF1b1z3iEef38sjQJks8xvj6M85pPY6",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "params": {
+      "addressLookupTableAddress": "5AikMrU3KPPT2yYYbXc9Qe9CAxEkzUHK4zYFkbLmk4Xv",
+      "routingGroup": 2,
+      "tokenAccountA": "7CoLodcm9h4EAFKpcPbT34yk3MkpeWjsBqXVidfbrfQ7",
+      "tokenAccountB": "2w6WUGXVeUPeGpJTUSNu4btbpMkFtmjrQgpKi149it7K",
+      "tokenmentA": "",
+      "tokenmentB": "",
+      "tokenmentA_name": "?",
+      "tokenmentB_name": "?"
+    }
+  },
+
+  // [16] Raydium_CPMM  De469KJo5CPBGEpqkMam...
+  {
+    "pubkey": "De469KJo5CPBGEpqkMamKyECBgMcgr2jSRHZdKyRqfvz",
+    "owner": "CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C",
+    "params": {
+      "addressLookupTableAddress": "9Wjkg7y3oAr6awCb7mpw9pmQEznAJStbN7B8gTgxBQpP",
+      "routingGroup": 2,
+      "authority": "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL",
+      "tokenAccountA": "HCX2xH3ykNQessV4auSa4kLd6fQWDqx4NqrRNAaDkdA8",
+      "tokenAccountB": "8hBe12uGwSiyALXH8mRv39GSWFYh5omvBt1fbm76zwWF",
+      "tokenmentA": "So11111111111111111111111111111111111111112",
+      "tokenmentB": "44sHXMkPeciUpqhecfCysVs7RcaxeM24VPMauQouBREV",
+      "tokenmentA_name": "WSOL",
+      "tokenmentB_name": "?",
+      "observationState": "3DRxp78SMgkQYLgqxgF4Kp4TLAAQF4v2VdTeQABesxsb"
+    }
+  },
+
+  // [17] 1Dex  DbuvwPuLvH8uy2B1sKuu...
+  {
+    "pubkey": "DbuvwPuLvH8uy2B1sKuu18aCd2QpCvfZdfDtdRZztBd2",
+    "owner": "DEXYosS6oEGvk8uCDayvwEZz4qEyDJRf9nFgYCaqPMTm",
+    "params": {
+      "addressLookupTableAddress": "23iTfgGpQMxmeDhF4BcjW6D33UYG4Up25ttdc27vDD42",
+      "routingGroup": 2,
+      "metadataState": "5nmAbnjJfW1skrPvYjLTBNdhoKzJfznnbvDcM8G2U7Ki",
+      "tokenAccountA": "AHFAv95Z67xnPYuHTf5a9uMEHdXFvbQvwc4EazY3tpt7",
+      "tokenAccountB": "HZ5JFB1ZoZs6NQLr7bb4MMEXDgty4Vs1ZghoyX35mNnV"
+    }
+  },
+
+  // [18] Meteora_Pools  ERgpKaq59Nnfm9YRVAAh...
+  {
+    "pubkey": "ERgpKaq59Nnfm9YRVAAhnq16cZhHxGcDoDWCzXbhiaNw",
+    "owner": "Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB",
+    "params": {
+      "addressLookupTableAddress": "8vhtWBppcURwUyjNBYhBFtkaSJEiAT6baRXhsnLSii22",
+      "routingGroup": 2,
+      "vaultLpMint": {
+        "a": "FZN7QZ8ZUUAxMPfxYEYkH3cXUASzH8EqA6B4tyCL8f1j",
+        "b": "GwFTwbWGjdtk9TeHTUJUwR24DKhgi2bZQ8g95ooCynmE"
+      },
+      "vaultToken": {
+        "a": "HZeLxbZ9uHtSpwZC3LBr4Nubd14iHwz7bRSghRZf5VCG",
+        "b": "3WGuxJdoBxjiBMKnQqSRKAo8NqpHTnf7BXn5SgB4boc5"
+      },
+      "vaultAuthority": {
+        "a": "FERjPVNEa7Udq8CEv68h6tPL46Tq7ieE49HrE2wea3XT",
+        "b": "DzrQZb6jj9GeLV5DgcD9v2L2TcJyTYxfcBUaXkmDbXVF"
+      },
+      "vaultLp": {
+        "a": "D6uDyjtptL5Mr267BiLZJF4y3tNVm8RwT31KM9W5t6ZA",
+        "b": "24eCZN6iFJYhveH9i7jiTAD41R7Qn2cXSWVpvaVCfwoa"
+      },
+      "protocolTokenFee": "HvRixHdmb7yA5yRpGAxEvKcu2j5AAm6pgSukfPRpECcT",
+      "vaultProgram": "24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi",
+      "tokenProgram": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "tokenAccountA": "HZeLxbZ9uHtSpwZC3LBr4Nubd14iHwz7bRSghRZf5VCG",
+      "tokenAccountB": "3WGuxJdoBxjiBMKnQqSRKAo8NqpHTnf7BXn5SgB4boc5",
+      "tokenmentA": "",
+      "tokenmentB": "",
+      "tokenmentA_name": "?",
+      "tokenmentB_name": "?"
+    }
+  },
+
+  // [19] PancakeSwap  DJNtGuBGEQiUCWE8F981...
+  {
+    "pubkey": "DJNtGuBGEQiUCWE8F981M2C3ZghZt2XLD8f2sQdZ6rsZ",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "params": {
+      "addressLookupTableAddress": "GoFDHKYJsn6yQkNdBHBQo3zDzM5kdFAQpCfoorNEvL1n",
+      "routingGroup": 2,
+      "tokenAccountA": "CRKZr6Y9t2hzVNWY4gJk5eig8uznyykB4RTuGSqJDw7n",
+      "tokenAccountB": "bHHnvxhkzBebvqxpnzVaXSdQ1GdFeZFg8yi9YKgL7zE"
+    }
+  },
+
+  // [20] PancakeSwap  DbRUHWgc6xmdzn619JWF...
+  {
+    "pubkey": "DbRUHWgc6xmdzn619JWFjCMYJRNZmDsDYSdbsbiF7i6b",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "params": {
+      "addressLookupTableAddress": "FN7YAXxyzXMZThfvbesxLBRnA3qwCZDeGiK4reRXdzcK",
+      "routingGroup": 2,
+      "tokenAccountA": "562cTKoQ5u8LLvFvNhjM29mmnkjqgDYFv9k2i3xaF82d",
+      "tokenAccountB": "27UZSAuuTNwEk5uAD4vpsUf8FrvUjAMYfCtbREzuSR5x"
+    }
+  },
+
+  // [21] PancakeSwap  22HUWiJaTNph96KQTKZV...
+  {
+    "pubkey": "22HUWiJaTNph96KQTKZVy2wg8KzfCems5nyW7E5H5J6w",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "params": {
+      "addressLookupTableAddress": "9A2DNR6RPNLYcYS8g5M4V12ytLWmGg8g4tMoeL1xJUW8",
+      "routingGroup": 2,
+      "tokenAccountA": "7YcR78PKBHE5divhPVJ668kmmaDzove2d9msY9NpAJL2",
+      "tokenAccountB": "FCBauqNLbEBUci1v3NT4gWyFZXS4YUGnX7ZsPmWVzrvV"
+    }
+  },
+
+  // [22] PancakeSwap  4QU2NpRaqmKMvPSwVKQD...
+  {
+    "pubkey": "4QU2NpRaqmKMvPSwVKQDeW4V6JFEKJdkzbzdauumD9qN",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "params": {
+      "addressLookupTableAddress": "FsjunVyU4pX7u8VfTRpN6ZFkW4zH2Lhsiy2ZDmawssRQ",
+      "routingGroup": 2,
+      "tokenAccountA": "8JL1ZnyMvd48AqF9YTCE4UnEV8dDydU2cYQSa6bzykYP",
+      "tokenAccountB": "FVDSv2aymcXu5ubgFePqPmp24nrKiwpUFc21b2Kqh6gC"
+    }
+  },
+
+  // [23] Meteora_DLMM  8ztFxjFPfVUtEf4SLSap...
+  {
+    "pubkey": "8ztFxjFPfVUtEf4SLSapcFj8GW2dxyUA9no2bLPq7H7V",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "params": {
+      "addressLookupTableAddress": "3E62sjtoPd7qzkG5uipMZ9gWqkHUyxcchzqFtCHy9Tx3",
+      "routingGroup": 2,
+      "tokenAccountA": "64GTWbkiCgZt62EMccjFHRoT1MQAQviDioa63NCj37w8",
+      "tokenAccountB": "HJfR4mh9Yctrrh8pQQsrGsNdqV7KfpaaXGSdxGTwoeBK",
+      "tokenmentA": "Dz9mQ9NzkBcCsuGPFJ3r1bS4wgqKMHBPiVuniW8Mbonk",
+      "tokenmentB": "",
+      "tokenmentA_name": "?",
+      "tokenmentB_name": "?"
+    }
+  },
+
+  // [24] Meteora_DLMM  3eDLxhhkW95xpaBMdGuN...
+  {
+    "pubkey": "3eDLxhhkW95xpaBMdGuNTCaP8T1QCPYT3jbM9zZgV5qZ",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "params": {
+      "addressLookupTableAddress": "3b8rmUoqpZ8YEXyoMB3TiFe2E8oLqFrk6q7PmTtvKTEn",
+      "routingGroup": 2,
+      "tokenAccountA": "HVQNZSesja71i6RvxbuPRYMa6zi15QrRbhKdsYeLgzkT",
+      "tokenAccountB": "4JnyEGSBUZfksg9XjEoN9TkNsiPQgp1wwaZ1NoH9fmaP",
+      "tokenmentA": "",
+      "tokenmentB": "",
+      "tokenmentA_name": "?",
+      "tokenmentB_name": "?"
+    }
+  },
+
+  // [25] Meteora_DLMM  81GpCm4d13y8TozYtTha...
+  {
+    "pubkey": "81GpCm4d13y8TozYtThabuSCLQN2o3bbrvDogXFPn8sA",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "params": {
+      "addressLookupTableAddress": "3St6s13RdMfbtvVudf1v4yPsEmcvqP8KEdBm1FBaABUE",
+      "routingGroup": 2,
+      "tokenAccountA": "3KGotDRmG7D7vyNYtQGC9468azds4QnTwVyEB2TPsCVX",
+      "tokenAccountB": "HpdzsJNWmStGq29k22P1W7m7ZdpKXnHNExmiRkZekBtK",
+      "tokenmentA": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+      "tokenmentB": "So11111111111111111111111111111111111111112",
+      "tokenmentA_name": "?",
+      "tokenmentB_name": "WSOL"
+    }
+  },
+
+  // [26] Meteora_DLMM  FwwBTBNZNAnvFeo5MSL3...
+  {
+    "pubkey": "FwwBTBNZNAnvFeo5MSL372tupj7tVs7ZnypxNX6g6Lzz",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "params": {
+      "addressLookupTableAddress": "HGoG67XuTW7bTH51Yrp2MSYyaCbjMmJ6LfQS87dKkr5N",
+      "routingGroup": 2,
+      "tokenAccountA": "2BePcYN45eBMn7Q2KSTnBUdJdFs8JGdMtqVL7EgMtwLU",
+      "tokenAccountB": "GduA8oUCRwKx63Ns3FczGU3cNWpRJ2tm5NWB4e9FFbCf",
+      "tokenmentA": "EicWvteVi2fWepEzS3FYWsnuPoP6caZfjnKqNvydLjCH",
+      "tokenmentB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "tokenmentA_name": "?",
+      "tokenmentB_name": "USDC"
+    }
+  },
+
+  // [27] Meteora_DLMM  53RSBX3tsax8KLnEhm8a...
+  {
+    "pubkey": "53RSBX3tsax8KLnEhm8ahScK1khySNPhHFSTPoZpZq2J",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "params": {
+      "addressLookupTableAddress": "7qxcS81azbZgxfqAa8t2T5FEGQWCPKpeenFFpto29r9F",
+      "routingGroup": 2,
+      "tokenAccountA": "6yKfzbcVa4cFiNbCTvnA69ceTg5Muo8TKTnsZBzhnyfS",
+      "tokenAccountB": "4XryF6jHcogu8GvJA8dHjE8G8Cce5U64tmHMrhNRt9d5",
+      "tokenmentA": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+      "tokenmentB": "So11111111111111111111111111111111111111112",
+      "tokenmentA_name": "JLP",
+      "tokenmentB_name": "WSOL"
+    }
+  },
+
+  // [28] Meteora_DLMM  Hz1EtXTGaFEtAWRgRNpD...
+  {
+    "pubkey": "Hz1EtXTGaFEtAWRgRNpDMFV6vnSZtQUY9UqmdM6vfKSS",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "params": {
+      "addressLookupTableAddress": "63atvtDnsWcFrYRDHmyFwFvUC5MjCKCXEsZfhg1J5AnA",
+      "routingGroup": 2,
+      "tokenAccountA": "53QtjGY8tueZ3tQVY3kJ8PMF8joP5etj4EQtxPqm647R",
+      "tokenAccountB": "37X6Cr513nFVMpd1i3nT1mbJMSwaWkcCUd1nGGuH7trQ",
+      "tokenmentA": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+      "tokenmentB": "So11111111111111111111111111111111111111112",
+      "tokenmentA_name": "cbBTC",
+      "tokenmentB_name": "WSOL"
+    }
+  },
+
+  // [29] Meteora_DLMM  4zQTE5nVDtykQavfRh2u...
+  {
+    "pubkey": "4zQTE5nVDtykQavfRh2u5Fy6c9G2mzvX5n1qqAzAoswM",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "params": {
+      "addressLookupTableAddress": "BsMnNWyusvu2HSWjvvo4YgRgX1V84H3xuP1pCcF9bu8E",
+      "routingGroup": 2,
+      "tokenAccountA": "9JnMNiVc6dogpBM8sL52VJBQyYqyGqBXr1hcaoZEY82u",
+      "tokenAccountB": "2EUNywMRWLggiQ4pijEtrFcTdEhpnvHJK9kiN8aqVwdm",
+      "tokenmentA": "So11111111111111111111111111111111111111112",
+      "tokenmentB": "USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB",
+      "tokenmentA_name": "WSOL",
+      "tokenmentB_name": "USD1"
+    }
+  },
+
+  // [30] Meteora_DLMM  HfgjZDmexhFVD28Vkb1N...
+  {
+    "pubkey": "HfgjZDmexhFVD28Vkb1NbQwWeXP3uDcVTLPjSGHmRHhL",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "params": {
+      "addressLookupTableAddress": "FgpERf7os2NwvySLg2f7acCWzaYi9PEYa2y4eTJz2Wa6",
+      "routingGroup": 2,
+      "tokenAccountA": "BTN1CZ6riUAkUTnnphfjY1kGWCPUNX47t11DVrapwjGH",
+      "tokenAccountB": "2QANsJARmrkK2ow3eFhuDM8mM7zwZqqSx967RJtVQbYc",
+      "tokenmentA": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "tokenmentB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "tokenmentA_name": "JUP",
+      "tokenmentB_name": "USDC"
+    }
+  },
+
+  // [31] Meteora_DLMM  BKXWSPeUCxLtrNnMy2by...
+  {
+    "pubkey": "BKXWSPeUCxLtrNnMy2by3gdC7qMdPmdADPS4K5CneJZq",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "params": {
+      "addressLookupTableAddress": "9fCf2P1Jik69BkRH9SNcrrRK2oQddim5539TqBRFFEfG",
+      "routingGroup": 2,
+      "tokenAccountA": "pYBRPfGgcBAJofFBJUaXgb1JGiEuVhiM9XMZeufvdHK",
+      "tokenAccountB": "4Xoaf5Riq7z3Q7QnpFJsuthsWNAh2vgCAdADyQUA3GTY",
+      "tokenmentA": "Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump",
+      "tokenmentB": "So11111111111111111111111111111111111111112",
+      "tokenmentA_name": "pippin",
+      "tokenmentB_name": "WSOL"
+    }
+  },
+
+  // [32] Meteora_DLMM  F2BstVuVWqBntH439tz7...
+  {
+    "pubkey": "F2BstVuVWqBntH439tz7UXRHDwfCUFsrDzniZ2qjKLRT",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "params": {
+      "addressLookupTableAddress": "ryBrpCkVjm36iFTFcrWgp8ezD7GwHutbdfr6p474Tju",
+      "routingGroup": 2,
+      "tokenAccountA": "5mRAg1CsLgCRjETyFz6jiZRMDvp8nzE26UxgUjvZsRpr",
+      "tokenAccountB": "FZrEEYBFKwVUBHHDipS1aJvKyWxexLUsvjms31fEymFs",
+      "tokenmentA": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
+      "tokenmentB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "tokenmentA_name": "?",
+      "tokenmentB_name": "USDC"
+    }
+  },
+
+  // [33] Manifest  8sjV1AqBFvFuADBCQHho...
+  {
+    "pubkey": "8sjV1AqBFvFuADBCQHhotaRq5DFFYSjjg1jMyVWMqXvZ",
+    "owner": "MNFSTqtC93rEfYHB6hF82sKdZpUDFWkViLByLd1k1Ms",
+    "params": {
+      "addressLookupTableAddress": "4m25Bu6JhCFLzbPKJm8usuxr1yjJBnWNEe4u8PUgcpaU",
+      "routingGroup": 2,
+      "tokenAccountA": "CNRQ2Q5YURFcQrATzYeKUWgKUoBDfqzkDrRWf21UXCVo",
+      "tokenAccountB": "FGQoLafigpyVb7mLa6pvsDDpDaEE3JetrzQoAggTo3n7",
+      "global": "4SMRzaLXsuvTi2B5cSVs4LuCUUqQhB2uByTWUvbixjfF",
+      "globalVault": "6KzHa7L1MDTkaUb4qGiJqMvnmAy1qztGDeLvSHdS9ooU"
+    }
+  },
+
+  // [34] Manifest  EXMcKF76kmBUH8xZ5fi1...
+  {
+    "pubkey": "EXMcKF76kmBUH8xZ5fi1jv3ezh3eVQCeL4rQbpjCRxvF",
+    "owner": "MNFSTqtC93rEfYHB6hF82sKdZpUDFWkViLByLd1k1Ms",
+    "params": {
+      "addressLookupTableAddress": "4m25Bu6JhCFLzbPKJm8usuxr1yjJBnWNEe4u8PUgcpaU",
+      "routingGroup": 2,
+      "tokenAccountA": "2ovNVDzhRTXyijrs38rbhEyw7XDPvRXHHr7hvPDv5aRs",
+      "tokenAccountB": "JAVj73fdncxHNkJpH5KZ5fdU5cCNnMwxtEEvjCwt3BEn",
+      "global": "GsHyn819yEPtVxnuStvsAXnwmgzdpWx5Xsq4kn8NKnwL",
+      "globalVault": "HRJfzKmnWVvV4P1czFLP77SqYtQJ2NmpneyanPD4J3FT"
+    }
+  },
+
+  // [35] Manifest  9VaVgdReZVxmEZLv9kqo...
+  {
+    "pubkey": "9VaVgdReZVxmEZLv9kqorjcS2hyGMAU77wEMFu3G7FiL",
+    "owner": "MNFSTqtC93rEfYHB6hF82sKdZpUDFWkViLByLd1k1Ms",
+    "params": {
+      "addressLookupTableAddress": "A3HGXVDdyE6v1n8V6zxbqqF2GUv2CXu9DqNLcbVVnceV",
+      "routingGroup": 2,
+      "tokenAccountA": "5CUmy7rXCJcMtdHpehrbtfJ156ZybLfyiHsNRzSBSEgw",
+      "tokenAccountB": "DUJ6GqqnusjP4ajzbDUx2veRkeXfNVnjh5vAQ1P5fuix",
+      "global": "GK5m9ybGK925TywvTTKCUi6GNsu1z2Dcsv4hGFXBNjAD",
+      "globalVault": "ABxyTXDqwLQadkZ9qbcHiTctE76Hd4ykTbCtHtbe7DfV"
+    }
+  },
+
+  // [36] Manifest  G1tDzRTK66XQr2p6vSTV...
+  {
+    "pubkey": "G1tDzRTK66XQr2p6vSTViVwirMiVfYg4NZTVB7VbVAdk",
+    "owner": "MNFSTqtC93rEfYHB6hF82sKdZpUDFWkViLByLd1k1Ms",
+    "params": {
+      "addressLookupTableAddress": "GhjFcW4d6CPSgwxPptjrr8rme8jYMhAfeiQ8cjfXSpGj",
+      "routingGroup": 2,
+      "tokenAccountA": "7S9H5A8mxxqoZngrQdmR3w2RAg9MaYnqR4TnTUPQTbvg",
+      "tokenAccountB": "Fp9EQk7VZbxTMKWCL2nLRqBzSw3usPCGgtuQhgtARvhD",
+      "global": "Dit9mXwGnP7Xk4Gc5qY6hobCCxD5bMtVwanoKSJ73bqM",
+      "globalVault": "51Lo7LQrM5WduV6o49Zmv7cXoMsDfbBw145HWEv9G9WT"
+    }
+  },
+
+  // [37] Manifest  7ecvmhGKVcK4SgxeGQJG...
+  {
+    "pubkey": "7ecvmhGKVcK4SgxeGQJG6yVwVAhbQxLrBuaMoUmpRZ6i",
+    "owner": "MNFSTqtC93rEfYHB6hF82sKdZpUDFWkViLByLd1k1Ms",
+    "params": {
+      "addressLookupTableAddress": "CYN8QfFfXEtMZZKppoNxQwuuqnZZKHfk9G6DzprNRjBS",
+      "routingGroup": 2,
+      "tokenAccountA": "4ThJXdq1ga5aaZSXRa9gDgEBwkj7iG2tJxJ3XXC2K23u",
+      "tokenAccountB": "GkXG58JMDWCfoAorj8uCJcKj748uqV7tfYaV67mSW5LH",
+      "global": "4DPHPUgFos8vuNLS7ZtdAb5pmTCwehSvzgLLJg7DMHm6",
+      "globalVault": "EoxgGKhzvfdH73RyqGR9ocUzuc6mcMERZHYjYi2c9enj"
+    }
+  },
+
+  // [38] SolFi_V2  FkEB6uvyzuoaGpgs4yRt...
+  {
+    "pubkey": "FkEB6uvyzuoaGpgs4yRtFtxC4WJxhejNFbUkj5R6wR32",
+    "owner": "SV2EYYJyRz2YhfXwXnhNAevDEui5Q6yrfyo13WtupPF",
+    "params": {
+      "addressLookupTableAddress": "Cebe9n1UmhceqQMWpZpkLHTGUZSks33XTzM62n984s8Z",
+      "routingGroup": 2,
+      "tokenAccountA": "5bHD9xdEzJdkVuhs54mGPC9BZgUshqgMg4tqmTwhWggc",
+      "tokenAccountB": "ARWaajRJyF6PKQryJ4HLzLBfTWM2qmVQUQVtBjk6PgPc"
+    }
+  },
+
+  // [39] SolFi_V2  2Q6S8p9iZNzMvpTemiC5...
+  {
+    "pubkey": "2Q6S8p9iZNzMvpTemiC56HqCJ3F3szNoyRkvqEKfCanY",
+    "owner": "SV2EYYJyRz2YhfXwXnhNAevDEui5Q6yrfyo13WtupPF",
+    "params": {
+      "addressLookupTableAddress": "Hmgvitq2MacYG73BhtuVTNHZ37aeUysxSdGDowX9Rs4d",
+      "routingGroup": 2,
+      "tokenAccountA": "bKWEuahcKutLrCnhMoqAoizAsNdEuuK2AR1sUfayZUS",
+      "tokenAccountB": "FqDQsR72Ej99XMoiLRkeNZWHBQ2Fe6eaikEzmhjYavrZ"
+    }
+  },
+
+  // [40] Tessera_V  FLckHLGMJy5gEoXWwcE6...
+  {
+    "pubkey": "FLckHLGMJy5gEoXWwcE68Nprde1D4araK4TGLw4pQq2n",
+    "owner": "TessVdML9pBGgG9yGks7o4HewRaXVAMuoVj4x83GLQH",
+    "params": {
+      "addressLookupTableAddress": "6ZL7mrtuqCS7f3w79XZAjxBUs1m9i74dfErxRw1E4wyz",
+      "routingGroup": 2,
+      "authority": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
+      "tokenAccountA": "5pVN5XZB8cYBjNLFrsBCPWkCQBan5K5Mq2dWGzwPgGJV",
+      "tokenAccountB": "9t4P5wMwfFkyn92Z7hf463qYKEZf8ERVZsGBEPNp8uJx"
+    }
+  },
+
+  // [41] Tessera_V  9NkuAWB4LgCVFV77omEk...
+  {
+    "pubkey": "9NkuAWB4LgCVFV77omEkJEjXqgV5PGupwMTu3B3pBRhc",
+    "owner": "TessVdML9pBGgG9yGks7o4HewRaXVAMuoVj4x83GLQH",
+    "params": {
+      "addressLookupTableAddress": "J9mpA25xdEUgC7PLZ5P5qtsgPfD2vzuCzCtYdgeJ4G7d",
+      "routingGroup": 2,
+      "authority": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
+      "tokenAccountA": "37hggNyT4Ec8GEcxMLrWrZyrMSSFMSiFT6VBayRYceZH",
+      "tokenAccountB": "9t4P5wMwfFkyn92Z7hf463qYKEZf8ERVZsGBEPNp8uJx"
+    }
+  },
+
+  // [42] Tessera_V  FwxwM23qYD8qNR6LRVFS...
+  {
+    "pubkey": "FwxwM23qYD8qNR6LRVFSUX7eDfeFF3xK9NbpSmRCQy8f",
+    "owner": "TessVdML9pBGgG9yGks7o4HewRaXVAMuoVj4x83GLQH",
+    "params": {
+      "addressLookupTableAddress": "FsjunVyU4pX7u8VfTRpN6ZFkW4zH2Lhsiy2ZDmawssRQ",
+      "routingGroup": 2,
+      "authority": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
+      "tokenAccountA": "6Q4HGLiJfNyiaF2ZhqCLNRuKu4duASthb1jkENCcBanm",
+      "tokenAccountB": "9t4P5wMwfFkyn92Z7hf463qYKEZf8ERVZsGBEPNp8uJx"
+    }
+  },
+
+  // [43] Tessera_V  Ce8WKGKeNPrtk85inFtk...
+  {
+    "pubkey": "Ce8WKGKeNPrtk85inFtkpskekaNibZiogSZBrcP7yhTN",
+    "owner": "TessVdML9pBGgG9yGks7o4HewRaXVAMuoVj4x83GLQH",
+    "params": {
+      "addressLookupTableAddress": "3dcxboYWsTe551HL8B3hvtqsPD4hbgpZTd1TkjWHWiof",
+      "routingGroup": 2,
+      "authority": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
+      "tokenAccountA": "GYaM9Coc9gG4vzqTLRzGAZS6HFaBrebDohMUMYkyADRm",
+      "tokenAccountB": "9t4P5wMwfFkyn92Z7hf463qYKEZf8ERVZsGBEPNp8uJx"
+    }
+  },
+
+  // [44] GoonFi_V2  5mHTXRU1bgBDo9vUoHKk...
+  {
+    "pubkey": "5mHTXRU1bgBDo9vUoHKkCidbFRc2mLHSgTTdQyZBjMfg",
+    "owner": "goonuddtQRrWqqn5nFyczVKaie28f3kDkHWkHtURSLE",
+    "params": {
+      "addressLookupTableAddress": "DBmHWCVEGCzZ3zDNr9WzRaMmSqCjcixMh78imXfno9qJ",
+      "routingGroup": 2,
+      "tokenAccountA": "Eq4RXu6YteLSADZ7X3gxMimqGm98uUN9KMSzQjoUqSKP",
+      "tokenAccountB": "EQgSe7ekYKr8PoP3eyxiGvno2SKUvhqfqP2am8Gpyqyu",
+      "accountA": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+      "accountB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+    }
+  },
+
+  // [45] GoonFi_V2  2U5S52n2L9Rr8vjDiEFR...
+  {
+    "pubkey": "2U5S52n2L9Rr8vjDiEFRmHo5iQjJQg9zAgJ5nY1aWXK1",
+    "owner": "goonuddtQRrWqqn5nFyczVKaie28f3kDkHWkHtURSLE",
+    "params": {
+      "addressLookupTableAddress": "HUPERwcXx6kWUqU8ZVnkiERLdb2Di6CPaeS5dS9V69Fz",
+      "routingGroup": 2,
+      "tokenAccountA": "7zuKtR8T6M39uXYBzKwWCUdSZMMR3mjCJ4dVN8mDNVBY",
+      "tokenAccountB": "EGBZLRFamCA9VVTn4YenHni5XCqb8D1bJ1k2rGrmUVB2",
+      "accountA": "JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD",
+      "accountB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+    }
+  },
+
+  // [46] GoonFi_V2  En8TnhTxJ525KawkZxC2...
+  {
+    "pubkey": "En8TnhTxJ525KawkZxC2rweSPrYmE1VUB3Ny4p9TMikF",
+    "owner": "goonuddtQRrWqqn5nFyczVKaie28f3kDkHWkHtURSLE",
+    "params": {
+      "addressLookupTableAddress": "7oBGgrMRK4boNrpVUq6eJxNDN1v6ATAP9xLhQsts6caU",
+      "routingGroup": 2,
+      "tokenAccountA": "Gz2uTJMsr4KuNycNdcnWyVDUH1hmMvdNAyodhELfEfy2",
+      "tokenAccountB": "5vpCEWThmMb1pSk2DES2zh466vqrbWWStgdkK9aSegeZ",
+      "accountA": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "accountB": "JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD"
+    }
+  },
+
+  // [47] GoonFi_V2  EEUNhHsRoUVgJUFpkupm...
+  {
+    "pubkey": "EEUNhHsRoUVgJUFpkupmdF4v7uLUw1zhYLp7u9s8zFqG",
+    "owner": "goonuddtQRrWqqn5nFyczVKaie28f3kDkHWkHtURSLE",
+    "params": {
+      "addressLookupTableAddress": "HNESDoYU1ihQaSdkDgDv6Z42vifaovPk4yZ38Grd4cvh",
+      "routingGroup": 2,
+      "tokenAccountA": "5dRazfLSjTq15r7XL6b5WBGTFtria1EHZQS7VZr7BD5V",
+      "tokenAccountB": "F9xyBfChZ2uCv7aQujJCe6gKVx7ydCmxfh2ZWrNwFoKr",
+      "accountA": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "accountB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+    }
+  },
+
+  // [48] GoonFi_V2  DnYTE1Yin8uErtQEyjcd...
+  {
+    "pubkey": "DnYTE1Yin8uErtQEyjcdvPoF8sW3cM4brnQEsP1uT6Cg",
+    "owner": "goonuddtQRrWqqn5nFyczVKaie28f3kDkHWkHtURSLE",
+    "params": {
+      "addressLookupTableAddress": "HzrVjpHJZDN2XrfXZBUdPWBii8jmNyXZc7PygUpf1bjJ",
+      "routingGroup": 2,
+      "tokenAccountA": "JC15MstNtnodVf89shZ83B5duFEnJrPQhpWB9oPZbV26",
+      "tokenAccountB": "Bnv1kaAnZ9PwKKNgrwEnMrabuZRchpvaUKZMxM557gUb",
+      "accountA": "Bi11Je4MH3PpyCNiuTAepRbsA5U6DK3DJy79ZFthddX",
+      "accountB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+    }
+  },
+
+  // [49] Orca_Whirlpool  HktfL7iwGKT5QHjywQkc...
+  {
+    "pubkey": "HktfL7iwGKT5QHjywQkcDnZXScoh811k7akrMZJkCcEF",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "params": {
+      "addressLookupTableAddress": "3RRynG7FN6FkVaAyZPHwZSAGYUWzxb1EmtM5CfrShhsw",
+      "routingGroup": 2,
+      "tokenAccountA": "AqKqiu9mWCPoWT1WqofQUrcyCm53VCY9tPc3PdaMDuTy",
+      "tokenAccountB": "A99HYkvGeE5Btn5Mi2246oV4DSUAcG7CxFMuJ6vUARDy",
+      "tokenmentA": "So11111111111111111111111111111111111111112",
+      "tokenmentB": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+      "tokenmentA_name": "WSOL",
+      "tokenmentB_name": "WETH",
+      "oracle": "8dTz9hwTXoydPyQoeaov261XyCb36WeFyjwmtkw65ce2"
+    }
+  },
+
+  // [50] Orca_Whirlpool  MemoSq4gqABAXKb96qnH...
+  {
+    "pubkey": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "params": {
+      "addressLookupTableAddress": "9N9Chw3edzTnY2bDMpzMZxEXDdgnDCLEF7gvkk4CLQbC",
+      "routingGroup": 2,
+      "tokenAccountA": "5KqohoeGjTjyHAFJJywK4J7fkFuK82PfMyuseGgLKZu2",
+      "tokenAccountB": "2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH",
+      "tokenmentA": "",
+      "tokenmentB": "",
+      "tokenmentA_name": "?",
+      "tokenmentB_name": "?",
+      "oracle": "Cac4BoBedu9hsNo1RtgfKEomHmQ3HYKQ2gXYzqSz2KpG"
+    }
+  },
+
+  // [51] Orca_Whirlpool  B5EwJVDuAauzUEEdwvbu...
+  {
+    "pubkey": "B5EwJVDuAauzUEEdwvbuXzbFFgEYnUqqS37TUM1c4PQA",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "params": {
+      "addressLookupTableAddress": "4PVJq5X4v3CL4ZcQWf2puqKaT8QXDG46ZWxYCS7sUJqP",
+      "routingGroup": 2,
+      "tokenAccountA": "5qk7fzUy9SYi2oHBDHXvmPuLNaxCvkjMck1g1c1dq9NK",
+      "tokenAccountB": "5xXtGXq5JHB3grdgTGQ4yt7YmJBqBxdffhnkZ8vc6xLB",
+      "tokenmentA": "So11111111111111111111111111111111111111112",
+      "tokenmentB": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+      "tokenmentA_name": "WSOL",
+      "tokenmentB_name": "WBTC",
+      "oracle": "DNmsPHniKz1x1GGwy3DLrfRZQEkPvmZS7GbaGPkn5j5K"
+    }
+  },
+
+  // [52] Orca_Whirlpool  AU971DrPyhhrpRnmEBp5...
+  {
+    "pubkey": "AU971DrPyhhrpRnmEBp5pDTWL2ny7nofb5vYBjDJkR2E",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "params": {
+      "addressLookupTableAddress": "CoSBewWF5pNJ6fiJSNJj6XNcMPWC5wa9gnAPwFvcrwzx",
+      "routingGroup": 2,
+      "tokenAccountA": "EYk1gzG24RSYMtfrcS4j1VLg4Lu9StefbxP6Nt9uFT5f",
+      "tokenAccountB": "4iznQFptuX2A2L5NNinFjSvnXzc2Vhd6b6w8a4nXCpqA",
+      "tokenmentA": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+      "tokenmentB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "tokenmentA_name": "WETH",
+      "tokenmentB_name": "USDC",
+      "oracle": "38ciCQrZMoTaRq3sXCzsVeEx7J18HvKAxEzV3oskXJZY"
+    }
+  },
+
+  // [53] Orca_Whirlpool  Hp53XEtt4S8SvPCXarsL...
+  {
+    "pubkey": "Hp53XEtt4S8SvPCXarsLSdGfZBuUr5mMmZmX2DRNXQKp",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "params": {
+      "addressLookupTableAddress": "5m2LUxvFW8zBq4baKUCnsC9zK7FSCEeLPoi1CsLBB4dQ",
+      "routingGroup": 2,
+      "tokenAccountA": "F7tcS67EfP4bBJhWLxCk6ZmPVcsmPnJvPLQcDw5eeR67",
+      "tokenAccountB": "8tfJVFdcogGMmvW1RA1kDZey2BjwdCznF3MD4Pcxi9xn",
+      "tokenmentA": "So11111111111111111111111111111111111111112",
+      "tokenmentB": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+      "tokenmentA_name": "WSOL",
+      "tokenmentB_name": "JitoSOL",
+      "oracle": "HtKTsc1mu3PaLo89AZBaHtxooUfdvxEvBbo2YT99k45Z"
+    }
+  },
+
+  // [54] Orca_Whirlpool  HD8i7qr1hd9ida6sN71R...
+  {
+    "pubkey": "HD8i7qr1hd9ida6sN71RbkLxbWcbvZS4NA5CY6vfcDpj",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "params": {
+      "addressLookupTableAddress": "DyRAhq2DXNwrJzMu8pPqj9v2zjqtDWGnk8qd4ppam1Nw",
+      "routingGroup": 2,
+      "tokenAccountA": "Fq5fc9Ed3XRTsupzKYi5fRXLFsukmzhN7iDxwU3qNsig",
+      "tokenAccountB": "CxorLTDskqhd4kE72bU11NezCnvh5okaZBQTuQTCxyFC",
+      "tokenmentA": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+      "tokenmentB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "tokenmentA_name": "JLP",
+      "tokenmentB_name": "USDC",
+      "oracle": "HnSfHKPXC1nrtwgCBZtSzkzps9UMpARYGFEL2pHTAC62"
+    }
+  },
+
+  // [55] Orca_Whirlpool  5t1DEPmxpyQzygiXT9Q9...
+  {
+    "pubkey": "5t1DEPmxpyQzygiXT9Q9xvidHTSBeD1PYnoFYa7wG5mg",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "params": {
+      "addressLookupTableAddress": "HWGP38bLxaDEUgfJB2X2ByCbJxzJK8AmgYRCXZLHDsTj",
+      "routingGroup": 2,
+      "tokenAccountA": "2ogJYLnBYsQzfh19pTxiv87GhRDWoRGc3oAEAZFhEAA7",
+      "tokenAccountB": "EcoNf7JkBfLytGkqhZANz2RPECT55997whcEXC1ZhRq5",
+      "tokenmentA": "So11111111111111111111111111111111111111112",
+      "tokenmentB": "Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump",
+      "tokenmentA_name": "WSOL",
+      "tokenmentB_name": "pippin",
+      "oracle": "B3PqJK4z6437oGywZi1DKdzoQRcoi6BC8uP7BMsWQGxg"
+    }
+  },
+
+  // [56] Orca_Whirlpool  HxA6SKW5qA4o12fjVgTp...
+  {
+    "pubkey": "HxA6SKW5qA4o12fjVgTpXdq2YnZ5Zv1s7SB4FFomsyLM",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "params": {
+      "addressLookupTableAddress": "3xNgJps1ngjeLuj586aAmYMoR6HD6hwqkLMDD1sjNRPm",
+      "routingGroup": 2,
+      "tokenAccountA": "FWiLr7QtETCRs3CxFTAMmLynitX8uEjw9HxpFjxKQrAe",
+      "tokenAccountB": "5ahiXjuZgWQPqYEay5GFHv5r3ycXqgxacoeXX7VetByd",
+      "tokenmentA": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+      "tokenmentB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "tokenmentA_name": "cbBTC",
+      "tokenmentB_name": "USDC",
+      "oracle": "8KEgiSnNwRvYCZbUNg9EJ7VAx2PWUKSeWShgHqbbBaMe"
+    }
+  },
+
+  // [57] Orca_Whirlpool  6NUiVmsNjsi4AfsMsEia...
+  {
+    "pubkey": "6NUiVmsNjsi4AfsMsEiaezsaV9N4N1ZrD4jEnuWNRvyb",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "params": {
+      "addressLookupTableAddress": "3ko8XWJLLPTmsC7pJbrENEVbfrM2x4Ps4Peu8STgphfx",
+      "routingGroup": 2,
+      "tokenAccountA": "2KiAy13bDCMGfJ8MqbpTC7g3CunHjLQYMs3wK14XM5LZ",
+      "tokenAccountB": "GoJSsR8AwPWCbbbFfwVtT97vTEdKs3kwGkahgvhiybMU",
+      "tokenmentA": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+      "tokenmentB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "tokenmentA_name": "JLP",
+      "tokenmentB_name": "USDC",
+      "oracle": "8HchJS2ufNvZv6i3Q6zRLvBDpVe1P72ArR86p2hUHvg6"
+    }
+  },
+
+  // [58] Orca_Whirlpool  AHTTzwf3GmVMJdxWM8v2...
+  {
+    "pubkey": "AHTTzwf3GmVMJdxWM8v2MSxyjZj8rQR6hyAC3g9477Yj",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "params": {
+      "addressLookupTableAddress": "EpD2zs8DoJveSvRWwmkfAeo5UcPiQpmAbrZY5rxGf2J3",
+      "routingGroup": 2,
+      "tokenAccountA": "ATUMydDvNcELzNk9GP1Ky7i2Mgx2t2ej5aNPMhA6F2VH",
+      "tokenAccountB": "ChcWkmUbWDbBspDjPX6ZXi7Hb9kZ7VTbNUf6nMtWF1YH",
+      "tokenmentA": "",
+      "tokenmentB": "",
+      "tokenmentA_name": "?",
+      "tokenmentB_name": "?",
+      "oracle": "7T9uvDmpdKVzxsWkEQvpnZKnEsaK6LQ7tnDpd6pNJfZH"
+    }
+  }
+
+]

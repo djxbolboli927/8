@@ -1,0 +1,109 @@
+// Pool Extractor v2 + Pair Filter
+// Wallet: 8oKVwqA5S2B7g2Li6yqZ4KKghpER8G1vj3bbeg8dFkSw
+// Filter: USDC / SOL, JitoSOL / SOL, SOL / mSOL, USDC / JitoSOL, USDC / mSOL, JitoSOL / mSOL
+// Total: 6 pools
+
+[
+  // [1] DEX: Tessera_V | Pair: USDC / SOL
+  // Mints: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v, So11111111111111111111111111111111111111112
+  // TX: 372B6J84ExPxCohcbtsNBxENSNktE3LmCCvfFSedGZRDTeKm...
+  {
+    "pubkey": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
+    "owner": "TessVdML9pBGgG9yGks7o4HewRaXVAMuoVj4x83GLQH",
+    "params": {
+      "addressLookupTableAddress": "44P9bzgxXfibaHrMVmmiHXiKqmc4uotHiw8DFWCxd9dk",
+      "routingGroup": 3,
+      "swapAccountSize": {
+        "account_compressed_count": 9,
+        "account_len": 9,
+        "account_metas_count": 9
+      }
+    }
+  },
+
+  // [2] DEX: AlphaQ | Pair: JitoSOL / SOL
+  // Mints: J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn, So11111111111111111111111111111111111111112
+  // TX: 372B6J84ExPxCohcbtsNBxENSNktE3LmCCvfFSedGZRDTeKm...
+  {
+    "pubkey": "hKH9LFREBm3TxTx5Ex6D1nHTKEA8ii3CWfhEkB9s21u",
+    "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
+    "params": {
+      "addressLookupTableAddress": "44P9bzgxXfibaHrMVmmiHXiKqmc4uotHiw8DFWCxd9dk",
+      "routingGroup": 3,
+      "swapAccountSize": {
+        "account_compressed_count": 9,
+        "account_len": 9,
+        "account_metas_count": 9
+      }
+    }
+  },
+
+  // [3] DEX: GoonFi_V2 | Pair: USDC / SOL
+  // Mints: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v, So11111111111111111111111111111111111111112
+  // TX: 2xZsxAFYdZFH33ydWeXJeUTJd63QRrS55rK25sm4nnZNHWug...
+  {
+    "pubkey": "GMCJvYGf5Ex2ARiMquaBDqU6iKM8uiEQkB8jCnoNfHpC",
+    "owner": "goonuddtQRrWqqn5nFyczVKaie28f3kDkHWkHtURSLE",
+    "params": {
+      "addressLookupTableAddress": "FwpcehBCcpmzf8Bwxi134NxwQEAR85gmtWxZSizSTsxr",
+      "routingGroup": 3,
+      "swapAccountSize": {
+        "account_compressed_count": 7,
+        "account_len": 9,
+        "account_metas_count": 9
+      }
+    }
+  },
+
+  // [4] DEX: Meteora_DLMM | Pair: USDC / SOL
+  // Mints: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v, So11111111111111111111111111111111111111112
+  // TX: 3bgntm9HtWDb8pe8A56ZSNnwSt8c78Dbz7yZEDD9vbSJXabx...
+  {
+    "pubkey": "FoSDw2L5DmTuQTFe55gWPDXf88euaxAEKFre74CnvQbX",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "params": {
+      "addressLookupTableAddress": "23iTfgGpQMxmeDhF4BcjW6D33UYG4Up25ttdc27vDD42",
+      "routingGroup": 3,
+      "swapAccountSize": {
+        "account_compressed_count": 16,
+        "account_len": 16,
+        "account_metas_count": 16
+      }
+    }
+  },
+
+  // [5] DEX: 1Dex | Pair: USDC / SOL
+  // Mints: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v, So11111111111111111111111111111111111111112
+  // TX: 3bgntm9HtWDb8pe8A56ZSNnwSt8c78Dbz7yZEDD9vbSJXabx...
+  {
+    "pubkey": "DbuvwPuLvH8uy2B1sKuu18aCd2QpCvfZdfDtdRZztBd2",
+    "owner": "DEXYosS6oEGvk8uCDayvwEZz4qEyDJRf9nFgYCaqPMTm",
+    "params": {
+      "addressLookupTableAddress": "23iTfgGpQMxmeDhF4BcjW6D33UYG4Up25ttdc27vDD42",
+      "routingGroup": 3,
+      "swapAccountSize": {
+        "account_compressed_count": 9,
+        "account_len": 9,
+        "account_metas_count": 9
+      }
+    }
+  },
+
+  // [6] DEX: Meteora_DLMM | Pair: USDC / SOL
+  // Mints: EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v, So11111111111111111111111111111111111111112
+  // TX: 2nLpo4SyXeE97GwPXa74B1SUhavF4FezgcBbyryouYvQgUci...
+  {
+    "pubkey": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "params": {
+      "addressLookupTableAddress": "FQCY2Cbea1jazkUc6xjBUD72gMT2o8Mr4mnMd7gpL2F1",
+      "routingGroup": 3,
+      "swapAccountSize": {
+        "account_compressed_count": 16,
+        "account_len": 16,
+        "account_metas_count": 16
+      }
+    }
+  }
+
+]
