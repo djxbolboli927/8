@@ -62,7 +62,7 @@ x_token = "cba491e2cd18e339c6517a51d4d497737cb04edd08d8915fc872c8a30cd5656a"
 threads = 4
 quote_timeout_ms = 800
 # CU limit بر اساس تعداد هاپ: [2 hops, 3 hops, 4 hops, 5 hops, 6 hops]
-cu_limits = [170000, 220000, 280000, 330000, 380000]
+cu_limits = [300000, 400000, 500000, 600000, 700000]
 # حداکثر درخواست‌های همزمان به Metis در هر chunk.
 # 256 تا = نصف بار قبلی (512) تا متیس پهنای باند کافی برای swap_instructions داشته باشد
 max_concurrent_quotes = 256
@@ -161,7 +161,7 @@ max_bundles_per_second = 5
 # Tier-1: route_signature دقیق → patch amounts → بدون Metis call
 # Tier-2: hop-pair index (هر دو pool دیده شده) → patch amounts → بدون Metis call
 # Tier-3: fallback به /swap-instructions + ذخیره template برای دفعات بعد
-force_fresh_metis_all = false
-save_new = true
-serve_route = true
+force_fresh_metis_all = true
+save_new = false
+serve_route = false
 serve_from_metis = true

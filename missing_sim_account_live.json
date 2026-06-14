@@ -1,1164 +1,2025 @@
 [
   {
-    "pubkey": "1jzYpspa2Yaykfw5pNJY242Pt22yB8PjNMq2GCTxhZ4",
-    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "pubkey": "1AYhhyFGHqS9ujQF4Wjc67FGYzqHdmvUvsVhdAJ4eZz",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356345
+    "first_seen_unix": 1781436591
   },
   {
-    "pubkey": "22HUWiJaTNph96KQTKZVy2wg8KzfCems5nyW7E5H5J6w",
-    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
-    "classification": "dex_owned_live",
+    "pubkey": "2AXXcN6oN9bBT5owwmTH53C7QHUXvhLeu718Kqt8rvY2",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356165
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "23n1iw2wJxo2SXF3rpj6kEK4RqErL4ax5AcMofVNFyk5",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "24BWVA1T1PPqXG5tAczUZrpn6MbiUpD36aVJVc1wHzZX",
-    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
-    "classification": "dex_owned_live",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356824
-  },
-  {
-    "pubkey": "283tAkQVKT89svN1jCZbHyMsrzRwwYBRuTPrT2y5Ldtj",
-    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-    "classification": "dex_owned_live",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "2EUNywMRWLggiQ4pijEtrFcTdEhpnvHJK9kiN8aqVwdm",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "2QdhepnKRTLjjSqPL1PtKNwqrUkoLee5Gqs8bvZhRdMv",
+    "pubkey": "2HBYE29wRx7GAQEUNKVgdxb5gbuKUz5fwbZp5Br6tkTj",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396764
   },
   {
     "pubkey": "2bfW1DbvLdmFfo76LeQsYM91onzLjpxS5VgLgwFZtssi",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "2f5FRG1XLUoaiFoiUnwPmZA1e4RW5bgVBGheJRXCNiLb",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396944
   },
   {
     "pubkey": "2kfQuYG2FVZL2RqqKEttcdadbPWP4c7b6AFQztNcBWyV",
     "owner": "SV2EYYJyRz2YhfXwXnhNAevDEui5Q6yrfyo13WtupPF",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "2m5xEEjfvY9GAEYqBdVeroNvkkD8ejMGzgKy6cV9tDHi",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396764
   },
   {
     "pubkey": "2n6fxuD6PA5NYgEnXXYMh2iWD1JBJ1LGf76kFJAayZmX",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "2o4369ha3bENAhJDan8mdRNJjNo6qQ9P5KhUS4QZUVgi",
     "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
-    "classification": "dex_owned_live",
+    "classification": "normal",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "2w6WUGXVeUPeGpJTUSNu4btbpMkFtmjrQgpKi149it7K",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781436531
   },
   {
     "pubkey": "2zEMD81D2wyckNjc9PoJQzQE4bHQtzYR8VV1kGnvJ7Gg",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781396764
   },
   {
-    "pubkey": "37XRwFkmrvrh57MuyHJ651qwXikmsUbcH29Uj5USWq1E",
+    "pubkey": "33QePMtgj6t36VD24ec8k5QKfuTvNF1CDDW61VyNaXGJ",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356045
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "37WJCA7ddbPduWZQeEKM75Cyq87tE6egsCVoNis1hXXe",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396944
+  },
+  {
+    "pubkey": "37X6Cr513nFVMpd1i3nT1mbJMSwaWkcCUd1nGGuH7trQ",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "37hggNyT4Ec8GEcxMLrWrZyrMSSFMSiFT6VBayRYceZH",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "3AsJZQY3jtZwqBfbTUQ4xKDVwmdz2ufdKMsnxN9K5L3S",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781436531
   },
   {
     "pubkey": "3C5YE97HADPDxZehYq9Cis8AXr9aNyrUsczKzE1nDbW9",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-    "classification": "dex_owned_live",
+    "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396234
   },
   {
     "pubkey": "3Hwf5E7w71EfTk5EAZHAMFnndVdLEv9Gk9tymxFJgwDv",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "3Vc4UuvYQqUB6C5utGZECutMgdUvA7Y33Z3XoGqqaFwf",
-    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-    "classification": "live_state_stale",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "3a2ceHEsNjQCSXGfDzju8Xe8Aj86D8DGAHK4tuNRYRHT",
-    "owner": "MNFSTqtC93rEfYHB6hF82sKdZpUDFWkViLByLd1k1Ms",
+    "pubkey": "3LE6rQyJscc9VdghZN4cQqRxgboQwArczpdp2spPnLw4",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396944
+  },
+  {
+    "pubkey": "3N7izZz1s3kXs33bQxRw969t5X3b87Wf4EEPX1Hj1Ago",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436640
+  },
+  {
+    "pubkey": "3QR4AuQ5yNi78DjH628Bc7X2xrNryFsDzhMoq9dstZto",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "3SdgxEHJxzi9io1sK3orNqmD4Y47eso3kcjhyKXAmW1H",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "3Sht4Amox5REC1YLYGuR1Qdfh7fa8d2ucGu4rawjs6tN",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "3URWSdcSCX7M8PRyMtrDQPqbVA8MdzEni8UUgfD4WVwM",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781397004
+  },
+  {
+    "pubkey": "3VQJgdx6PtoLaJnut3UXLKDhv8nmyHsLRZuGf1MbEWQd",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436700
+  },
+  {
+    "pubkey": "3a1xVCX3waseiqwtK55TTJwejcuNSWXhosSPTDbYMHCG",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396794
+  },
+  {
+    "pubkey": "3biEb2zAh6pnNEffrqertysxFfddqxrgMiFrJzgENwFH",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781397004
+  },
+  {
+    "pubkey": "3biLesshWT86ofyC73iwvWbWxcphZRkVDLMXwJBokopU",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396944
+  },
+  {
+    "pubkey": "3f9kSZg8PPJ6NkLwVdXeff16ZT1XbkmT5eaQCqUnpDWx",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396914
+  },
+  {
+    "pubkey": "3gZQ2YnrXbnRwJj5poffLirF7CwacatvtfGCNRFrbJdr",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "3mcxyCuHgmNpWo7hSnbB3bdsaceDVANh4NK6HLqjDqYX",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
   },
   {
     "pubkey": "3nMFwZXwY1s1M5s8vYAHqd4wGs4iSxXE4LRoUMMYqEgF",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
-    "classification": "dex_owned_live",
+    "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "3qwhkTmToqpJKVzKGqGBEcKdwVgKwyQKDSwNNcjxP5ht",
-    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "pubkey": "3pUMRhHupLxaxHMf7aZmykxSoYR3GJB8rcPdXz3daqAA",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781436640
   },
   {
-    "pubkey": "3r4tEFt3B67RubZFYPc5vv3j8PEiU3eEh1eZ5EV9dxyj",
-    "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+    "pubkey": "3svQ6GFa1KvHhS32J8v3hXaHUDCBxdaFyrawMJEWVnQa",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396644
+  },
+  {
+    "pubkey": "3uBAzjhC81GUiWQyrfWkLAFv3M1szswdCfwExM14wNMf",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356737
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "445fd6ffBZqWYsryCgs6wcE8exaLkRsMrefAQ5UHvt8v",
     "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396174
   },
   {
-    "pubkey": "4D1zK6DvYBhi8Nw59DttTNY8tydE6ur3nTyRvypzDBRH",
+    "pubkey": "46mdANZ2DCA2sTFchvD7WwbffbLQa4jCFkkRL23WuYG8",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781397274
   },
   {
-    "pubkey": "4ba9bguTo7HbXFopJHaNMh8iAyApFpyQPgoufj3cSnyt",
-    "owner": "MNFSTqtC93rEfYHB6hF82sKdZpUDFWkViLByLd1k1Ms",
+    "pubkey": "4D7QYnWoZnswwpqswfT6z1xFB6y2ByvqEoPFbkrrWLRi",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396234
   },
   {
-    "pubkey": "4d35yC7C8zhCDec7JbPptL9SEb4NUddKHxURgmvD8hfo",
+    "pubkey": "4FKYJwTySY9rhwGEUr544NLNbMwR9MF3hMcQVT9Emhix",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "4FkX872Wbo6NK7eNEmMnDRMJnwbu6tQsE6utb5fbDbzv",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "4tjbbf12miEKCE7Er5zkaXzbG1VkPL1cuzY3FK4AgMBT",
+    "pubkey": "4G1ke5STzU65TGuxq7cuX59VnPPdrke1QsJWb43Qivo6",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781397274
+  },
+  {
+    "pubkey": "4J8uAYvPQvo8rk35LHK5bkSqjzZHsQzMXFbSC4TVqDDy",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "4QJU34MstCFAxZmLzDfa5VhYMT7HLRQ4LSoKxwzGcQy7",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "4UopaeYzxPyHtSYcvb1Cj9U3Z8uUf3yngsrTExqi2JAh",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "4Vc6N76UBu26c3jJDKBAbvSD7zPLuQWStBk7QgVEoeoS",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "4wVRntu3HmKkRkRfYvLrovv41Tpm6yt66uNWB9TWgZjj",
+    "pubkey": "4Vzk2yQo7Eynx1hmBRD3jAFFSwTUU6kNeb2ES2KL9EK6",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356285
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "4WbL8FAxfACzopRt2UX1z1no9fK72RkrBxbL7BMCMP1t",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "4Z29SkAVCeqZoRfUYvvFre4GoyGbiL95BX2SuXN1L8GR",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396944
+  },
+  {
+    "pubkey": "4maNZQtYFA1cdB55aLS321dxwdH1Y8NWaH4qiMedKpTZ",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396914
+  },
+  {
+    "pubkey": "4o8bsBZVYfZqKy3bFEG1P6ykyM8BuFUMjx9RzjDwyhEE",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396944
   },
   {
     "pubkey": "4xZYFLR2eyo2vrfsGuJZEPsgZafamE9fFPJ5wYJDW6nU",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "4y4KAXo8xQHhPN1XMJaEE2qcuDcndpqeBAXViV2VYTNg",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "4zQTE5nVDtykQavfRh2u5Fy6c9G2mzvX5n1qqAzAoswM",
-    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "pubkey": "519ZgipDsAw5G3JFTpXoZXNc8Qt2YERNHH61xKERDMTF",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396764
   },
   {
     "pubkey": "52ZjrBJDGueUBegcdknHZcwa5bnAiJcAJ65hgymxDdRB",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356857
+    "first_seen_unix": 1781396174
+  },
+  {
+    "pubkey": "53QtjGY8tueZ3tQVY3kJ8PMF8joP5etj4EQtxPqm647R",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "55aNhhR33vhgcLViZnht4XKiyid1zNYhDzrxHmKQf3iP",
     "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "58oQChx4yWmvKdwLLZzBi4ChoCc2fqCUWBkwMihLYQo2",
-    "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8",
-    "classification": "dex_owned_live",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "5DaXj8PBS4D4FbYLuRnD7VcbTKLyZrfQiJ2L3B9eMd5m",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "5jMrBRjbAvYa5wdgxbVEgr3ukrTQKKg4P3o6QzkeSU3r",
+    "pubkey": "5BQuhAJ9xbQ86sdHDRxem3SMKVvxYRTo22W29kqtwVxM",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "5DJ9o1fRVMMGuxnHEYGKhiUyKxb9TxQbQkxiiwhDqtQv",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436231
+  },
+  {
+    "pubkey": "5Dw9fqeipoVpU3wLRVgD23JGkRBstoiz1oaP6WbYWGG8",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436231
+  },
+  {
+    "pubkey": "5FLWzRHGjsUVBhSg9mHBT6UYDSw5dg1RmKXeBXP2nYdd",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "5bHD9xdEzJdkVuhs54mGPC9BZgUshqgMg4tqmTwhWggc",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "5dL3S2oTFGqjjpBir3kKybE52gQs4RuB1vPYGCSPVFPt",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781397154
+  },
+  {
+    "pubkey": "5es7CMqFb7pgb4WhnUBnZMrJZiB8vmEuqoZdsFi8GyPv",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "5jTYEETzcVFrVrB8gNT8i3xdhikC4M7uS7K9MsJQxHxG",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
   },
   {
     "pubkey": "5pVN5XZB8cYBjNLFrsBCPWkCQBan5K5Mq2dWGzwPgGJV",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "5rJ5PvB5MyxsyV9VSid2esNLJUykRiq9xcGxnMmoDJhh",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356045
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "5sGs9P3g9P9G9zq5ni1oPKDGADywfTZrZc2BnBmRKxEu",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-    "classification": "live_state_stale",
+    "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "5ybPweKQv1csHwvKusff7fhZLAVaoUrZ1hSExN92URy7",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "5z1c6Je1d1cR2y51qUimyUWYHUjGeb91ZiABVRbyPk6y",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "63rGXVxajf8vrtpMLxZjqQ7p4kScGJgMMiKWFC3Wfxnk",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
   },
   {
     "pubkey": "63sMvux7YMjUaanzhHSHc515dM8nmjtqMkrfwAsFJ3hS",
     "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
-    "classification": "dex_owned_live",
+    "classification": "normal",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396174
   },
   {
     "pubkey": "65ZHSArs5XxPseKQbB1B4r16vDxMWnCxHMzogDAqiDUc",
     "owner": "SV2EYYJyRz2YhfXwXnhNAevDEui5Q6yrfyo13WtupPF",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396234
+  },
+  {
+    "pubkey": "6D3ZGNemQYwQP2v2xvvAENRSwdQ6ygmXsKKmWMrAK5Pb",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781436640
+  },
+  {
+    "pubkey": "6JSEWtNP6gc8FVDDE8VXXE1suiMH2bZ3kEZsLfnMMCjt",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781397274
+  },
+  {
+    "pubkey": "6KX9iiLFBcwfjq3uMqeeMukaMZt5rQYTsbZZTnxbzsz6",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396234
   },
   {
     "pubkey": "6Q4HGLiJfNyiaF2ZhqCLNRuKu4duASthb1jkENCcBanm",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396234
   },
   {
     "pubkey": "6W1R5uXBCE1RmejWegQMT5dCqHopVRfNNfk3LsnhSYG3",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "6XquyRc4oTTEc4SmaoF3TpCy8Un6VoBiL91rUzsjLgaR",
-    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
-    "classification": "dex_owned_live",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356824
-  },
-  {
-    "pubkey": "6kzwwKsgekCH3VJBzrdv44AM1vztGYSemdHbZQJ8dUMf",
+    "pubkey": "6bC51jgynDQGQhvAX5qTxPUaAtt3QJabiKDH3tkqzaYy",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781397154
   },
   {
-    "pubkey": "6mQ8xEaHdTikyMvvMxUctYch6dUjnKgfoeib2msyMMi1",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
+    "pubkey": "6nD6d8gG17wakW6Wu5URktBZQp3uxp5orgPa576QXigJ",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "6pkA4kTvKqgiWDrcTVVcJ3N6GszDdK6QC1fxT6GcmEvc",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
+    "pubkey": "6ry3QB29TujeRyLrAS1N3pWzBRhiUPafJc1j7JG4yci1",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356285
+    "first_seen_unix": 1781436640
+  },
+  {
+    "pubkey": "6sdzkLY19RiW8GCqB9aq4PQXaNBiVgxv8xugmsi8CgAu",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "6wenLwaQbGe1foXWyrQeM3yL4CbD4euQHgeGypJfpudY",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "6zx8YXPzmJEMRj8GQDMaj3aCUS3zuR3izaia2kTJenf3",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "71KtbjVeGBbB8VAsniAoFw59sZ2EWgwqj3r1rLLccL59",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356285
-  },
-  {
-    "pubkey": "72uc9nXozQS2SKXzdbT115mMxjNeWwUjMoJgwbkN7VMU",
-    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
-    "classification": "live_state_stale",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356285
-  },
-  {
-    "pubkey": "75yFZDjYhxGybJYxWrCFBZXmARrnDXQbriygrAL3y9SP",
-    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-    "classification": "live_state_stale",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "772WVdWd7u7wFew2fR3sWXGMhDRCNm2geWT8ZvebsMw3",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781355805
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "79mhWQ3ppuBeVNikPoazsCorSiUZEAg3H7dgkdqzVU8x",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396234
+  },
+  {
+    "pubkey": "7CXZED4jfRp3qdHB9Py3up6v1C4UhHofFvfT6RXbJLRN",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396944
   },
   {
     "pubkey": "7CoLodcm9h4EAFKpcPbT34yk3MkpeWjsBqXVidfbrfQ7",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781436531
   },
   {
-    "pubkey": "7CxrjUG522CzqvdssU6sWoic6wromaTBZ9bbxiF6NmNS",
-    "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
+    "pubkey": "7CziKv23BByEDYwsi5Mb3WHP7zw7pbWkaeBsf1icDscD",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "7ENJsaWAy4PRs24NYd1WqUdY3DWi43rHvyZXhCjEiNWE",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "7GJEuNLdHy9c1GwnZEzP1jy3Y3EEB82ZbKLRVmmyJTrB",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436351
+  },
+  {
+    "pubkey": "7PheJKAcDVpNncPQqp36YwC1ZHP82hNcPUzsfAADJ85B",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396974
+  },
+  {
+    "pubkey": "7T9xGimeHVWNqCe1DqvtiAncLyn5hNrZgEkHnLn215ae",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
   },
   {
     "pubkey": "7UFhXo8UWF6xdjXk6y8sPFiCJEvJC8Lti72pYXcJ1pLQ",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396234
   },
   {
-    "pubkey": "7YcR78PKBHE5divhPVJ668kmmaDzove2d9msY9NpAJL2",
+    "pubkey": "7Yhr2YeUf4gj7HbKYjPeAuxEfv7FMBbznnt9ZWXiMS7o",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "7bNsPowdWioTCPEsmTfZHfnMtzFUN8eyvcZfRBby8GCe",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436490
+  },
+  {
+    "pubkey": "7d5o1GSmuvnkdFEqjkLEf8qqYbcaDsZ3UVRN3BupEWtn",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "7dMVtfbieAwgDrhPPfYEaeqc3DnZ9cXivwffXm8vrQnb",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "7hsofdwhWHGnA1sHZsGsyvNuPknTxzYMh4aUDH8VvWR6",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396644
+  },
+  {
+    "pubkey": "7iYSA1h3YNaFvJE4w93KmkPwuV9eSdUDttppS2zDteJ4",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "7mpNF5jmSZRQYMEhy6bGowgF2nJ9vEkHNdQot41X6kSE",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781397154
+  },
+  {
+    "pubkey": "7pRc4QDEdsbmdz4T8sfs4DY2VA2xCXPnkAXdWSqHgpA8",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781397274
+  },
+  {
+    "pubkey": "7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "7rVmCstfkv3WFfC6gi469ryJ19Tdf35kT87benbGq3Nr",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "7rXsNqBkFoiNPJYxhZHu9EGUMsY4j4tA2DhefvNbzQzs",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356165
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "7xUzuvAquLJLAAh5eEBorBX9uhGTtStqessw5RMYukux",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781396764
   },
   {
-    "pubkey": "7yTTC5VaRVMwBZULqQgYBfPXNgmrPER3JKK9SQLKHru8",
-    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "pubkey": "81xS6M2KtDkduV6xDQQPM8fupqtiv5mwftZDwr8ZEKNQ",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396234
+  },
+  {
+    "pubkey": "8EzbUfvcRT1Q6RL462ekGkgqbxsPmwC5FMLQZhSPMjJ3",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356285
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "81BadRGfaHFpAmuXpJ65k8tYtUWsZ54EFSmsVo1rbDTV",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
+    "pubkey": "8GLq3vNRd7H1DacGjdcJghBDuEfKUxtKHL9x1taPnMdj",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356345
-  },
-  {
-    "pubkey": "82kPQkc7B8nZ23r1YNqNB3uA3cgYzwxP5partMjwdT6h",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781397154
   },
   {
     "pubkey": "8PbjFCfVNHH5PwP7xJj4JnGom397ybK3mLzw9164nZ4K",
     "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
-    "classification": "token_account",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "8QiWPTLzJzpM1unb7yHEHRyCZ6cjiPdxPU7ppd91e8pZ",
-    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356045
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "8awg4iLSUmmmrkUGgj3T8VuWyvHRPudsLz8skyb3xV92",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
+    "pubkey": "8TXPxJtpNwfeuuLDMYG3sPajd7MqBcHtFXcMTVejEj7Z",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781355805
+    "first_seen_unix": 1781396764
   },
   {
     "pubkey": "8sjV1AqBFvFuADBCQHhotaRq5DFFYSjjg1jMyVWMqXvZ",
     "owner": "MNFSTqtC93rEfYHB6hF82sKdZpUDFWkViLByLd1k1Ms",
-    "classification": "dex_owned_live",
+    "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "8tpmZEtYup1UEXNqaKoXWE5eiK7yqxh9cGfh76YeCtuC",
     "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
-    "classification": "dex_owned_live",
+    "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "91tJbPHFVvyGzfHbCaAqvkQEeKVYVwM5Lm5gTwvGvnMH",
+    "pubkey": "8yo4M4Ys3Fg9VA58Un7qwbMqyyjCdNhWv2U1xRVQTGPa",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356255
+    "first_seen_unix": 1781396794
   },
   {
-    "pubkey": "9JnMNiVc6dogpBM8sL52VJBQyYqyGqBXr1hcaoZEY82u",
+    "pubkey": "8z59PR6e79NWQmstgE4Ktv5WsEjPVjGAdHWXmTUfJCbc",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "93wLwCtUN65vzqV8j3aCajrT3iDvqXPBPwJrRYyVemK1",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "98z5oNipUHgnS6MzY9AgVUPKGHkdw2sAExoBuEGxFiTu",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396644
+  },
+  {
+    "pubkey": "99fKmnC5xwoqVk9WdnfH2GmYFXQfW6QrAkfcT1K8wgXY",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781397004
+  },
+  {
+    "pubkey": "9Hst4fTfQJXp1fxyVx1Lk1TubjNegFwXCedZkMRPaYAK",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "9Jgp8NpqEDFd5d3RQPfuRY7gMgRFByTNFmi68Ph1yvVb",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "9NkuAWB4LgCVFV77omEkJEjXqgV5PGupwMTu3B3pBRhc",
     "owner": "TessVdML9pBGgG9yGks7o4HewRaXVAMuoVj4x83GLQH",
-    "classification": "dex_owned_live",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "9PPwitu3fYPVzYby2BKFSdCF93psUCZjfdWznUX8bact",
-    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "9Q2Ak7gQ1up1Gbs5jNucQGRYU62NN5Jbc2jrT1aKtRdb",
+    "pubkey": "9PKHKU54YPXQLmNU2MWgbej86GK4UMH8VCy3gXbb1K5n",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396944
+  },
+  {
+    "pubkey": "9R5FBfz6WE2PYzJ9YbWuRjYyB5N4bQ2Hv6627zVps27R",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781436250
   },
   {
-    "pubkey": "9d9mb8kooFfaD3SctgZtkxQypkshx6ezhbKio89ixyy2",
+    "pubkey": "9RfZwn2Prux6QesG1Noo4HzMEBv3rPndJ2bN2Wwd6a7p",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "9U8UF7d8kBvsS25XoZnjmVQ9vGkP4BUnHJgfc615BvG1",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "9YKE7tGczTk5APgamRCJHw1SP9ySHJB7Ltu8xe4P5RF2",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "9cP2ytAhUeNNAGMGjXYeXXDw46qK5mEnAemA8Y4GFjt4",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356345
+    "first_seen_unix": 1781396944
   },
   {
-    "pubkey": "9iGMZT142KvY12ruA8LZgktyZbLUy8QnjyMjLia3ZYp7",
+    "pubkey": "9ePeVTQEjXxYJ3CpSBQnW4QPixP1q4nP44qAEbeJmnyc",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "9qY1Aa3nvXhJMnhTtyc3cZmYtAPwbazUbrW3C3qtTCrD",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781397274
+  },
+  {
+    "pubkey": "9rrh2c8w15HExZnLFzcEgkvHg846TBBFEPUuFG7RMGmm",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "classification": "normal",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "9t4P5wMwfFkyn92Z7hf463qYKEZf8ERVZsGBEPNp8uJx",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "9xPhpwq6GLUkrDBNfXCbnSP9ARAMMyUQqgkrqaDW6NLV",
-    "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
-    "classification": "dex_owned_live",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "9ysxYWqyAMTXn8C32e7JwMLZV2GqdRzqafZSx9g9XAx2",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356737
+    "first_seen_unix": 1781396234
   },
   {
     "pubkey": "A4PwDC9yVF9xyrmwH7riv9RnkXKKk3yCJ7az2NT75gAD",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "A951AyVfmFgZYkpkdZ1xLTK7iGdDGDaquaLvradnEu2f",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781397154
+  },
+  {
+    "pubkey": "ABxyTXDqwLQadkZ9qbcHiTctE76Hd4ykTbCtHtbe7DfV",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436490
+  },
+  {
+    "pubkey": "AGUo9uSbYyQ4XaP5mqmeHWLoRyFtyQgUQuHc41UhvE3S",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396914
   },
   {
     "pubkey": "AHFAv95Z67xnPYuHTf5a9uMEHdXFvbQvwc4EazY3tpt7",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356737
+    "first_seen_unix": 1781396234
   },
   {
-    "pubkey": "AK93dERw7MJsGFBUPfV1bkXzDviJZM1K6vg2yGDugk7L",
+    "pubkey": "AHTTzwf3GmVMJdxWM8v2MSxyjZj8rQR6hyAC3g9477Yj",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "ARWaajRJyF6PKQryJ4HLzLBfTWM2qmVQUQVtBjk6PgPc",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356345
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "AQ36QRk3HAe6PHqBCtKTQnYKpt2kAagq9YoeTqUPMGHx",
+    "pubkey": "ATJEVDFWNgH4FZnv3VVk8KM9zzdA7GCCWrmmQJVkgaNU",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396944
+  },
+  {
+    "pubkey": "ATUMydDvNcELzNk9GP1Ky7i2Mgx2t2ej5aNPMhA6F2VH",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "AWym3ZRgysrtzn3npP3M9B2aVSkmLGGssffHMsNFykqM",
-    "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
-    "classification": "token_account",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "AbcuyoPeYnddzFoFQudsiFka8qd6tTwvLgxwtpTKTpKC",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "Ae69FL9iBJzFu9zbjsUWXx8t9cAh7hPVbnh28nAhT2Zd",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781397154
+  },
+  {
+    "pubkey": "AqJ5JYNb7ApkJwvbuXxPnTtKeuizjvC1s2fkp382y9LC",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "AuBPD6qXbcVbK66d7dKrMUfDuohAZYFtdvRhjWozRjy8",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436700
   },
   {
     "pubkey": "B6PMKaJeEATv7hMXg2oGFDD8iMv79JaQoadNpa8mFaLk",
     "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781436531
   },
   {
-    "pubkey": "BDVsoFu2GrvXG8HRjfp8aCyphSmEhb9Sm92siVSb6VES",
+    "pubkey": "B6gBDoeCR4aBHwfMn1gwc5Bc8RXcWSRpgttnfJPNFUTj",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "BBML9mpcgniX6RLw5Ns9MCti4dRH8w6cAUYxPevtwx4Q",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781436250
   },
   {
     "pubkey": "BF83iQ3svtuFaM7Eb5kFBGrsqTuHeZPnFCKBmzC1PTDQ",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396234
   },
   {
-    "pubkey": "BLBsjMvAehVUjFCABtkyKaF8hnuDP4bWEztCKRWBERb3",
-    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
-    "classification": "dex_owned_live",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356764
-  },
-  {
-    "pubkey": "BLtETTx81aLGdXVmqsaRBNFG6sraxK76CE55NPLW8ja4",
-    "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
-    "classification": "live_state_stale",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356737
-  },
-  {
-    "pubkey": "BfdXW4vZbRbuzvS4Utjs9YNJEntwPvw5nkjTjMr7Pexa",
-    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-    "classification": "live_state_stale",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "BhQEFZCRnWKQ21LEt4DUby7fKynfmLVJcNjfHNqjEF61",
-    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-    "classification": "dex_owned_live",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "BjBiyPv1gYiCusM5xvemmNMEF58gCKtFbPR16ksak6b9",
+    "pubkey": "BGAWADZTBdKXNoFeWuzTZkDABHzHe4SBXYnDwvZ555mB",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "BkmQoLwdoseDsHZxSFo76XSGnyMixy6iUtMEHVzMuNP9",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
+    "pubkey": "BRLzmJc1tZjmtkhPde6Umpt6oSutqKbKy72WMLHvmucL",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781397154
   },
   {
-    "pubkey": "C8Gr6AUuq9hEdSYJzoEpNcdjpojPZwqG5MtQbeouNNwg",
+    "pubkey": "BTKghpatxUXouJwTy6c7H88Dx9m55EfAdCXXvwrky83N",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356045
+    "first_seen_unix": 1781396644
   },
   {
-    "pubkey": "CMS5aWYe3Br4yctgjuew29QjRbAkve1QzNxiUn9L9zYD",
+    "pubkey": "BVNo8ftg2LkkssnWT4ZWdtoFaevnfD6ExYeramwM27pe",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "BW6oeFZogVBeZq4cej73nU36qGSXdFN7hWQdNVgjUDNU",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781355805
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "BZwAJkEMC9EoRJyKDQERaWdtX37jgME6fGwWjNCiLyem",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396914
+  },
+  {
+    "pubkey": "Be1CFyoPAr8aBGxpvCPD2LD21hdz2vjYNq8EcypnmgGD",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "Bh1x5nVi3EjvyqHNZXayVazmkRh7AaWfuvPW36cFYzUb",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781397004
+  },
+  {
+    "pubkey": "BmFbX8z5Wf2Djv1wxj9nn8sgNvbmpQF3as8Pq67VzzNF",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "Bms2Rwp2dSsyfYY87neddNT3754BzPNYdEMkcx4qo99X",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "BnqwX2ct9tS2x7SDeUxmv6BX5dKcQ3bLn4wt5TCBur2i",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396914
+  },
+  {
+    "pubkey": "C1Cg8QWEVPR6Dc9SyM2dfyoZdZnGerM7Hb3ehUhNv6GW",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "C3KwrxZ1XM2UxLrVYkJybhMxcVJKpyUoAkUEAZQiSFow",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "CA4WKXcr21U7Wxv6fitK5YeB4f2uMK6GL9HPaRgmwWLS",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396644
+  },
+  {
+    "pubkey": "CB41fo8dAAQf4QpX3rzbADdcpUX4Th4Q9KTGf6Yo5xBp",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "CBUWFsGfxHsRcR3XqMtZfCSbBh5aMWuS4i4sabupMhyS",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396914
+  },
+  {
+    "pubkey": "CFN4DQ2p3qroX92pPNy3mov3Dw1aCNGLrU5AXHpHxbko",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "CG8vBSopUJE3SvW3bNaerqj2rrtBX2U13AeB1tHTvcrM",
+    "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+    "classification": "unknown",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436190
   },
   {
     "pubkey": "CMghWj6TEDfGTN5CSzo9p27kPMb73fsDPM22LqTe2C9y",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "CN8k1PtzJz2mGGdf5puwV14Dh1skMRkT42sSvhesf3nT",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "CNRQ2Q5YURFcQrATzYeKUWgKUoBDfqzkDrRWf21UXCVo",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "CQUfYBxF2KFVjYyCPyGa7JCFX9zw2PwmNnECzY3merGA",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "CRKZr6Y9t2hzVNWY4gJk5eig8uznyykB4RTuGSqJDw7n",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "CRo8DBwrmd97DJfAnvCv96tZPL5Mktf2NZy2ZnhDer1A",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396234
   },
   {
-    "pubkey": "CZ1Qrv8XSETonRHAUkXJ6XKfWf9PBT6w11qkr5Zxsb8R",
+    "pubkey": "CWiNBUR5t91ZMDFR2F8PsQDC68imsbR77TbgK1fh9qWC",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396944
+  },
+  {
+    "pubkey": "CXvpMun12GVwGFcMcBRrTHrqy4bW2Xc4MWBTHBKWCsqb",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781397154
+  },
+  {
+    "pubkey": "CYwKjPiuzG4NgWBy8JDjcmoUMmVExDtVjxS4X1nGYT5a",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "CZfrCHhBb9zzhFyM5Weqg53oCBdxkYBPSU5k1wTR9hdu",
     "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "CagDQbSL2nFNsJJxiTZxKsArC1vMPeP54VTCjf8fptSe",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781396764
   },
   {
     "pubkey": "Ce8WKGKeNPrtk85inFtkpskekaNibZiogSZBrcP7yhTN",
     "owner": "TessVdML9pBGgG9yGks7o4HewRaXVAMuoVj4x83GLQH",
-    "classification": "dex_owned_live",
+    "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356285
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "CfZTL86UvfmT3biprZFQhQk8JhiWDn3YaqmXTFmTXBig",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396234
+  },
+  {
+    "pubkey": "Cgnuirsk5dQ9Ka1Grnru7J8YW1sYncYUjiXvYxT7G4iZ",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "ChcWkmUbWDbBspDjPX6ZXi7Hb9kZ7VTbNUf6nMtWF1YH",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "CjMiZSSFGGPBaZLSNF6oB5rYyKsASM5pbxEH18WTAK8A",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781396764
   },
   {
-    "pubkey": "D1jnRhUWezJmk4TdskJkSwncC3ThdRJnxmTnBECVebkh",
+    "pubkey": "CxRrUDu3pf6fYqJH3zj2CreH5Kq2ZawAjEqiHFRVueC",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-    "classification": "live_state_stale",
+    "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396974
   },
   {
     "pubkey": "DBxLBME3MbN1oEQhah8adNxYFwuLwhkr7BM3SEJ4uoTC",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396234
   },
   {
-    "pubkey": "DDDMQXfKq8rC9EcTHKCt8VFGNhSTz4GY1qNT2r8mWGo9",
+    "pubkey": "DFKnWLzXYmTrxnmSB27yQhQ9geDLgviCUixn3fDBLFNm",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-    "classification": "dex_owned_live",
+    "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "DGgbAS3oHCWNGxhyUv2uMRc1ZXDbkDFsNfD9HyTJdHyd",
     "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396234
   },
   {
     "pubkey": "DJNtGuBGEQiUCWE8F981M2C3ZghZt2XLD8f2sQdZ6rsZ",
     "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
-    "classification": "dex_owned_live",
+    "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "DMQver7kdMua1ANBY1rJPEFCX594zWn81ihv2yMVFEsF",
-    "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
-    "classification": "token_account",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781355805
-  },
-  {
-    "pubkey": "DQyrAcCrDXQ7NeoqGgDCZwBvWDcYmFCjSb9JtteuvPpz",
+    "pubkey": "DLWewB12jzGn4wXJmFCddWDeof1Ma4cZYNRv9CP5hTvX",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "DNjGfsyKfdsBDgSkfxiRRWmaksrUan5TxdoNfxTdkKzP",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781397154
+  },
+  {
+    "pubkey": "DP74UAcVaMuYaAf4PTKobTyzERoMsFCUE3UFnsqnKcwh",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "DYFQehJvGeswpHgHaBt1onreDCRWY6V73gNojHmYvExz",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "DZh162iMrPgBTp2y3XfxvAVwhgCibwEYpcTHfVCLRDNx",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "DbTYuFpdELAgyZBhX7TaTVDGYq1dJSQqdnAhtWHjxPjP",
     "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
-    "classification": "dex_owned_live",
+    "classification": "normal",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "DbuvwPuLvH8uy2B1sKuu18aCd2QpCvfZdfDtdRZztBd2",
     "owner": "DEXYosS6oEGvk8uCDayvwEZz4qEyDJRf9nFgYCaqPMTm",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396234
+  },
+  {
+    "pubkey": "Dg5MEF3etbxxNTfFFGqVF9ZrJrsujhMKm8DektKt7cZW",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356737
+    "first_seen_unix": 1781397274
+  },
+  {
+    "pubkey": "DgXDDXvS6xowgKY42WoFAqSJRZCww1rzpsauEq5hcPxF",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "DhqdGGgkAnj8AYqh2zbb8JRS3bfZZ8j2JQTQZ739moCk",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356857
+    "first_seen_unix": 1781396174
   },
   {
-    "pubkey": "DpG1i4hNRtKHyPf59uTRRegWfNKw1HDLLqRj93vy4MUk",
+    "pubkey": "Dj6dEpdbDChSoTk72LCZf7HcVrtLzTWsMBapcWK2gpEm",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-    "classification": "live_state_stale",
+    "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781355805
+    "first_seen_unix": 1781396644
+  },
+  {
+    "pubkey": "DnjwFMvwiLBABws6JpVpAUTyBV9wmucjAMxdnxAVFH92",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "DpM4inpFRYWyA5LuoTErNowxVzPRfLvbSG8sfQUz72vb",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396644
   },
   {
     "pubkey": "Drx7X5bUajSPY6m5f2QhD2CK8c3RBMKgueSpZgCgUzkP",
     "owner": "TessVdML9pBGgG9yGks7o4HewRaXVAMuoVj4x83GLQH",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "Du7rwKKJeLN8dACEstD4KHrFEUzhgL9iCym1dmzyGTn4",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781397154
   },
   {
     "pubkey": "DuFXxPxAyJhHj4gMpE8As1Ta4nSSVXv8xfEDRrWQmJ9G",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356737
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "Dy5hh2tRoxNTBzXMEi61hyA3EnG4NnpzfVxVmGHfeKzV",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "E2BcoCeJLTa27mAXDA4xwEq3pBUcyH6XXEHYk4KvKYTv",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "ECdXuXs7Sqsp9CaoA2LuZxYZnbs3oGA4tT7NNQARcsir",
-    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-    "classification": "live_state_stale",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356045
-  },
-  {
-    "pubkey": "EZVkeboWeXygtq8LMyENHyXdF5wpYrtExRNH9UwB1qYw",
+    "pubkey": "E8E9eweHLHCJFaHuxa2oi4NUjo48jqqd7NRr3nmWBqHg",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356285
+    "first_seen_unix": 1781396234
+  },
+  {
+    "pubkey": "E9Yi56MiTCwRdRXvjNcmq4Ba33p83vv6HvfirnbVcdq5",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "ELzuRVw3eKw3jCe3p6Qd3BWM2P9qrQUkyJbgTLSCNAx2",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "EaEKZFeuKvws16cfgkaCqZBwpvEdCC6Gsw6282A9WsCD",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "EdigWDZJp2EeyQ7L9Pfd5ZGmVE6FBr1vY9yzvWEFSep4",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396914
   },
   {
     "pubkey": "EgEYXef2FCoEYLHJJW74dMbom1atLXo6KwPuA6mSATYA",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "Eio6hAieGTAmKgfvbEfbnXke6o5kfEd74tqHm2Z9SFjf",
-    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-    "classification": "dex_owned_live",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781355805
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "ExcBWu8fGPdJiaF1b1z3iEef38sjQJks8xvj6M85pPY6",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436531
+  },
+  {
+    "pubkey": "Eyojv31ywNgGDRxpeHjhrFznrrdkyXkwKDoUYUHJSg7Q",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396764
   },
   {
     "pubkey": "EysZrxtKW2xcQE79x9Sfg8kqgTCB7Dm4J2mcvHpSUu9D",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "EzBAxMwkfXUUAr6ym1RuEoh9DGYQowF5EyETdA8yrZP1",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
   },
   {
     "pubkey": "F2KCaXcp7AoQtxTDvNEDCyMyWjSCAMWNzcyN9dsPfPs5",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396174
+  },
+  {
+    "pubkey": "F3XsDdauTEvj9HVz677a2r5ne6TEXLRGUAoeutUpa6b5",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396944
+  },
+  {
+    "pubkey": "F97q5RKwckTTjoGR2JzoSMXo14NR1VBJtvVyV7SPQDuG",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396944
+  },
+  {
+    "pubkey": "FAJH6YEkvWaUvrosig4qyzM8MwwCvb5B1N3QHmcXZ1Vo",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781397154
   },
   {
     "pubkey": "FBHtJosPZNPdp6VA3QqhnEDG9KKK57mybEE9iU3nboNX",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781396764
   },
   {
-    "pubkey": "FCBauqNLbEBUci1v3NT4gWyFZXS4YUGnX7ZsPmWVzrvV",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
+    "pubkey": "FERjPVNEa7Udq8CEv68h6tPL46Tq7ieE49HrE2wea3XT",
+    "owner": "24Uqj9JCLxUeoC3hGfh5W3s9FM9uCHDS2SG3LYwBpyTi",
+    "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356165
+    "first_seen_unix": 1781436591
   },
   {
     "pubkey": "FGQoLafigpyVb7mLa6pvsDDpDaEE3JetrzQoAggTo3n7",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "FGvJdFmqSXfqNqBaCZ9oy1BBZrXHZ1n8YycHCxEFJ3kW",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396644
+  },
+  {
+    "pubkey": "FJfk4e2coAUaZLyHs59aMZK8SLfTMoTyxLqbfQUfYff5",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "FLckHLGMJy5gEoXWwcE68Nprde1D4araK4TGLw4pQq2n",
     "owner": "TessVdML9pBGgG9yGks7o4HewRaXVAMuoVj4x83GLQH",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "FQyweJxhD3nQg6WhmVuTFirvGR5xCCCnJNNhVdmxrjP8",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396974
   },
   {
-    "pubkey": "FmxEcnf9dKppesnEMD8AGK1Y2mbosz5w4An4frtcHVwK",
+    "pubkey": "FRhB8L7Y9Qq41qZXYLtC2nw8An1RJfLLxRF2x9RwLLMo",
+    "owner": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "FSSCaNL5eVNUozDftnMwKiFhq6NFSockBk42t4oBzjgx",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "FU4BG5pwU77dFecQ5t7sd3jsdEgwiWEyxqCfufJK4HVa",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781355805
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "FoRh1GNFBLeym2QPGDo2bvi1MdWXVhqRPMkCrwJQzfD5",
-    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-    "classification": "live_state_stale",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "FoujoERvWJdmaGbyBusMDFyexviL9r1tqYoyJZiwJz6V",
+    "pubkey": "FUL2BzPrHyWAwgduFGiJpxmbZmHEHd8x2wAxvSNbDdGk",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781396764
   },
   {
-    "pubkey": "FpCMFDFGYotvufJ7HrFHsWEiiQCGbkLCtwHiDnh7o28Q",
+    "pubkey": "FYfYXkJgKTjxH1LNh2xKirEsKJreZwDWeBqst53m8Vg3",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396794
+  },
+  {
+    "pubkey": "FZN7QZ8ZUUAxMPfxYEYkH3cXUASzH8EqA6B4tyCL8f1j",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436591
+  },
+  {
+    "pubkey": "FafioLm6awLvxPE6q2CoPMC2Wu2Rci2U5rdtxNwG8rhB",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "FcrDRmEXijR9rd4UAwhprsfnFG5ViCghwySgEUtDtjE2",
     "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396914
   },
   {
-    "pubkey": "FsRXoxiWLnVzvMBbu3GpoBeWXf8Nqp36vM15J4t1iYpD",
-    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-    "classification": "live_state_stale",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "FwBwAoMueEcnRTgLm825wGSKtQtoobUBUM5x75VzWQWC",
+    "pubkey": "FeFgcWCxBx15ESeh5ahaXi4jujxk2HrQD1RqaRqYxgpf",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396234
+  },
+  {
+    "pubkey": "FehHmGQB2Pv3g5FrKKzCu328HadLtdK3wdKLCWWBWSRS",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "FkEB6uvyzuoaGpgs4yRtFtxC4WJxhejNFbUkj5R6wR32",
+    "owner": "SV2EYYJyRz2YhfXwXnhNAevDEui5Q6yrfyo13WtupPF",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "FmxXDSR9WvpJTCh738D1LEDuhMoA8geCtZgHb3isy7Dp",
+    "owner": "SV2EYYJyRz2YhfXwXnhNAevDEui5Q6yrfyo13WtupPF",
+    "classification": "normal",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "Fn36tL89G9foSjbcG4UuaFfJ7mB39wZGSWEXwNGF1ugK",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "FqB4VZVrMv4SKqvd1imtmrNfvkFsxHpezGUrqBcvUCYX",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
   },
   {
     "pubkey": "FwxwM23qYD8qNR6LRVFSUX7eDfeFF3xK9NbpSmRCQy8f",
     "owner": "TessVdML9pBGgG9yGks7o4HewRaXVAMuoVj4x83GLQH",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396174
+  },
+  {
+    "pubkey": "FzEPnuAhAWooydNXdEdX2eB8H7BUSznsr2ZVLopnbHg1",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396794
+  },
+  {
+    "pubkey": "Fztu3B6v23wakKu3FwNfJrYk8KZQkoNZMscExHrN4dpt",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436250
+  },
+  {
+    "pubkey": "G6HyJAYUXM1DvJkFBCQHjayvfWcxqaYzrcKzye1JqR4n",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
   },
   {
     "pubkey": "GF8SKKobum6UJnhX2mLHePU38htg5vdr9zcY4jH8Pqs2",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396174
   },
   {
-    "pubkey": "GUFHzq2kxLpcx35vVBzR5a6owJ5Qqo5U8FXVA4JJKqV7",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "GYqHjuDzTiw7i52Xv1qohDE6eJr6eSZpsrBVikGZyaFV",
-    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "pubkey": "GN3fR4HpqSKejyLfnUpX2r7HhzquwDUBCiEqUiSqQtK1",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781355805
+    "first_seen_unix": 1781436760
+  },
+  {
+    "pubkey": "GXXSAS4cX38ngduW3524NioWAmBNyM9oLyh5wi3TPzGo",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "GcNiDTCV135UWkcUebtmkupr9TmNuk8oHm7KrgUp1xSj",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396944
   },
   {
     "pubkey": "GhFfLFSprPpfoRaWakPMmJTMJBHuz6C694jYwxy2dAic",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396234
   },
   {
     "pubkey": "GswwnegnBMWEuEsptDCBDmRB9YtG5zjetTSw7RunUQMY",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356737
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "GtZP5jVLwg7s3myjjQuEV7Yb3fbVnhy2CoYiZsSnrQpg",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396944
+  },
+  {
+    "pubkey": "GyUVV1HmnHueUcu3eYq1ybnfq5t5P9VZ1qVt5K58sUkN",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "H18xqLYd5uEenmiFKoXkgrTvyhnLgJMPT8sSvdZPpi3p",
     "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "H4n71gyZ1GyeDyAYWCKK8JSapbQh1ex2b7BWhJRoRqtp",
-    "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+    "pubkey": "H3chk8rgniKXnToGTdPUFieuHGLQQfBMXVbGp6bR1uMD",
+    "owner": "TessVdML9pBGgG9yGks7o4HewRaXVAMuoVj4x83GLQH",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "H5aqpfPf2zKSCsrouTB8NBHEP9WArrh9AkcBncNb9azk",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "H6iHb3PKqeFeY8rDw6SXY97NsCKCzPGgYLMzTnGQ9e1",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781355805
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "H6khGhf2eYUB4hBaqNf8H1CtK7PZnyN5hYrBjmtKAu27",
+    "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396644
   },
   {
     "pubkey": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "H9wQt3NPfRLbBhwVgZrLntWQd3sft7T6bUQuMK2szERg",
-    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
-    "classification": "dex_owned_live",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "HHSRKgSyAFVRsDdnV8k3LoxiLRZfSS7rgykfB3kvKpuq",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "HKNY8zMrV6TxxtEcY2bZfScnT4pE8KPmR2nsxEodpUz9",
-    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
-    "classification": "live_state_stale",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "HLmqeL62xR1QoZ1HKKbXRrdN1p3phKpxRMb2VVopvBBz",
-    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
-    "classification": "token_account",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396234
   },
   {
     "pubkey": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
     "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
-    "classification": "dex_owned_live",
+    "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "HWkAxShLUEoSvvnpXCvkT5rGUdGbm3snaKj8Wzsg3g56",
-    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "pubkey": "HXochgo8A36DpnwNemAcWd7mj5GQYeGUjXLVYQxwUrvw",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356824
+    "first_seen_unix": 1781396234
   },
   {
     "pubkey": "HZ5JFB1ZoZs6NQLr7bb4MMEXDgty4Vs1ZghoyX35mNnV",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396234
+  },
+  {
+    "pubkey": "HZeLxbZ9uHtSpwZC3LBr4Nubd14iHwz7bRSghRZf5VCG",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436591
   },
   {
     "pubkey": "Has2dQDkTXyzEm5HKCDyxHuCwPcPwf1PN6zQg7JKt9Xn",
     "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
-    "classification": "dex_owned_live",
+    "classification": "normal",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396234
   },
   {
     "pubkey": "HbFACE7GxA7XP9PrwYBiR7ZvBbQh7fmUFcRJWrPDt51M",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396234
   },
   {
     "pubkey": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
   },
   {
-    "pubkey": "HcCbiQqc55uHtP2MJu7BYdVPi9s4j45R4zXcwRmJgCXX",
-    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "pubkey": "He4brjK7TRKiqJ8szpRmhuueDwC4837BFRRBmWfmjo14",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "classification": "normal",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "HeGn8vs613EpreXowAXABQdhMzW5dordapE65Nk7wJEm",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396764
   },
   {
-    "pubkey": "HgQRhiATjX9jTWh7QgLWnhCeR7PaBqoWVf4vSaL61YVv",
-    "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
-    "classification": "token_account",
+    "pubkey": "Hftw3ebz2S3DuNoCJZGhW2x9vnMHb5d6u73mSnqcth9m",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396764
   },
   {
-    "pubkey": "HjRw8yeBVUCGHMUWZzF83U4x82KwsrVwaeh6CYxtGBsQ",
-    "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
+    "pubkey": "Hhb4k1k8qr74nD1n5nmfR6iVihHpACPp4hKm72YdWm2q",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
     "classification": "live_state_stale",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356737
+    "first_seen_unix": 1781436231
+  },
+  {
+    "pubkey": "HoAiKLm63QuGqE6pXVFsuF2rKXTKPrcsSgX3HCpuKNQb",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "HoJKGr95VJHqchUrbaBxGdCJtdbEceP6yQtw1UzqacnV",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781396764
   },
   {
-    "pubkey": "Hp5K2KWRoF2LXDsYQaoE18VheQKPrsLQ9dzNELzPULZb",
+    "pubkey": "Hq9xxKdMavJd4teMZusF4PiGNGV3hxdcMZwAdngkHCg7",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356285
+    "first_seen_unix": 1781396944
+  },
+  {
+    "pubkey": "HqsLtH9vxZ7QipavTCT71VNM3sD7w8WCAC9tbSkSLcjL",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "HsXc1YBmzpoMA6JQnwVW4Cj7epFVY62KJYQ1MM6V4zFH",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436772
+  },
+  {
+    "pubkey": "Hwbif7pZXE5qHxFDKcJcUdQved3D7tcU4Af5aekcDxZo",
+    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436640
+  },
+  {
+    "pubkey": "Hwu6Cv8EKFSrupEJpZ2o2Q2eWUqHngdXwrmtSJhTg3cw",
+    "owner": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+    "classification": "dex_owned_live",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396944
+  },
+  {
+    "pubkey": "HxqzKqmuSgtK8nqaPgVLiVkWMSk51MTjxUfvEdpvYkzz",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "Hz1EtXTGaFEtAWRgRNpDMFV6vnSZtQUY9UqmdM6vfKSS",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "J4XYXZvFtQsZZ6XrH7jrKdTn1wL3cbXybp9qHdq7iAVy",
     "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781396764
+  },
+  {
+    "pubkey": "J8u7HvA1g1p2CdhBFdsnTxDzGkekRpdw4GrL9MKU2D3U",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
+    "classification": "normal",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781396234
   },
   {
     "pubkey": "Pi9nzTjPxD8DsRfRBGfKYzmefJoJM8TcXu2jyaQjSHm",
     "owner": "ALPHAQmeA7bjrVuccPsYPiCvsi428SNwte66Srvs4pHA",
+    "classification": "normal",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "Psui6AUiwCfoydurtqTBJ9ps3djQmSLZyuuGPQ3a8Zj",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "TACz1NnifoPsuZndfAiYxzfffcXCZSsJG7mKzdacTZi",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436231
+  },
+  {
+    "pubkey": "UnaHXXCKqhMmhDa6DJVwDqfcAW4YN4MquAf368Sydch",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781436231
+  },
+  {
+    "pubkey": "aqR89ME9f1TK35ujkWq6Xka11eKMrwxJSHArbtGWHZr",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781396764
   },
   {
     "pubkey": "bHHnvxhkzBebvqxpnzVaXSdQ1GdFeZFg8yi9YKgL7zE",
     "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "n6CwMY77wdEftf2VF6uPvbusYoraYUci3nYBPqH1DJ5",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "token_account",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "n8Mpu28RjeYD7oUX3LG1tPxzhRZh3YYLRSHcHRdS3Zx",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
   },
   {
     "pubkey": "qN8eqTR152tRtvu2zVQNkqDKR18mgVmYiDrv8RVU9ht",
     "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "sZxb9vrxJBpFiJBogovhfkYqfapVzveLEU4TmzWv4GN",
+    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "classification": "live_state_stale",
+    "is_writable_seen": true,
+    "first_seen_unix": 1781435740
+  },
+  {
+    "pubkey": "unxKgWEc71ZiHwMqZs3VLqjcjmZhfTZEg94ZLGvjdMP",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
     "classification": "token_account",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
+    "first_seen_unix": 1781397154
   },
   {
-    "pubkey": "v4D5b4knJ83WzErtDiugxChUZUfWxe2FtDLguarvgFc",
-    "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "pubkey": "zpbjzvS4FkWXfhcP6xzcoQZrXFZPcSLxUKy4dB85Zsf",
+    "owner": "CAMMCzo5YL8w4VFF8KVHrK22GGUsp5VTaW7grrKgrWqK",
     "classification": "dex_owned_live",
     "is_writable_seen": true,
-    "first_seen_unix": 1781356494
-  },
-  {
-    "pubkey": "wXgwFq2vqQfR5vFSmattUdb8MzBqHDmHQEYRe7T4BRT",
-    "owner": "HpNfyc2Saw7RKkQd8nEL4khUcuPhQ7WwY1B2qjx8jxFq",
-    "classification": "dex_owned_live",
-    "is_writable_seen": true,
-    "first_seen_unix": 1781356764
+    "first_seen_unix": 1781396764
   }
 ]
