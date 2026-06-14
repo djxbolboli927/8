@@ -244,6 +244,15 @@ async fn async_main(config: config::Config) -> Result<()> {
         }
 
         let dex_pools = dex_accounts::load(&config.simulation.dex_dir);
+        // Authoritative, UNFILTERED set of every account referenced by the fixed
+        // mix.json pools (pool state, both vaults, mints, ALTs, authorities).
+        // mix_registry verification below may transiently mark some of these
+        // "unverified" (e.g. an RPC error during startup verify) and filter them
+        // out of the prefetch/subscribe/readiness sets — which then leaves a real
+        // vault/mint missing at sim time and faked as System-owned. We re-add
+        // this set after filtering so the 712 fixed pools are always fully loaded.
+        let required_pool_accounts: Vec<solana_sdk::pubkey::Pubkey> =
+            dex_pools.all_accounts.clone();
         let mix_registry = mix_registry::VerifiedMixRegistry::load_and_verify(
             rpc_client.clone(),
             &config.simulation.dex_dir,
@@ -309,6 +318,20 @@ async fn async_main(config: config::Config) -> Result<()> {
         sim_subscribe_accounts.sort_unstable();
         sim_subscribe_accounts.dedup();
         sim_prefetch_groups.extend(fixed_pools.prefetch_groups);
+
+        // Re-add the full unfiltered mix.json account set so a transient
+        // mix_registry "unverified" verdict can never leave one of the 712 fixed
+        // pools partially loaded. These flow into the RPC prefetch (via the
+        // prefetch_groups built below), the Yellowstone subscription (live_extra),
+        // and the startup readiness gate (wait_for_live_cache_ready). A real
+        // account that is genuinely missing on-chain is still skipped by the RPC
+        // top-up inside wait_for_live_cache_ready, so this cannot wedge startup.
+        sim_all_accounts.extend_from_slice(&required_pool_accounts);
+        sim_all_accounts.sort_unstable();
+        sim_all_accounts.dedup();
+        sim_subscribe_accounts.extend_from_slice(&required_pool_accounts);
+        sim_subscribe_accounts.sort_unstable();
+        sim_subscribe_accounts.dedup();
 
         // Pre-load ALT contents for every addressLookupTableAddress in pools_by_dex
         // so v0 transactions that reference them can be resolved by the simulator.

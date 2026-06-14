@@ -1586,10 +1586,38 @@ impl Simulator {
             }
         }
 
+        // Even when hot-path RPC is disabled for volatile/writable pool state,
+        // missing READONLY accounts (token mints, oracle/config PDAs) must be
+        // fetched once with their real on-chain owner. Injecting a System-owned
+        // synthetic placeholder for them breaks the DEX/SPL ownership check and
+        // produces InstructionError(_, InvalidAccountOwner). This is the root
+        // cause of every AlphaQ "tokenB" failure: AlphaQ pool entries in
+        // mix.json list only the two vaults, so the token mint the swap touches
+        // is never prefetched and used to be faked. These accounts are static,
+        // so the single fetch is cached permanently (get_many_or_fetch inserts
+        // into the cache). Writable/signer accounts stay off the hot path and
+        // bail as fail-closed (they are loaded at startup from mix.json).
+        let readonly_need_fetch: Vec<Pubkey> = {
+            let writable_or_signer: HashSet<Pubkey> = account_metas
+                .iter()
+                .filter(|m| m.is_writable || m.is_signer)
+                .map(|m| m.pubkey)
+                .collect();
+            need_fetch
+                .iter()
+                .copied()
+                .filter(|pk| !writable_or_signer.contains(pk))
+                .collect()
+        };
+        let readonly_fetch_set: HashSet<Pubkey> = readonly_need_fetch.iter().copied().collect();
         let missing_without_rpc = if self.allow_hot_path_rpc_fetch {
             HashSet::new()
         } else {
-            need_fetch.iter().copied().collect::<HashSet<_>>()
+            need_fetch
+                .iter()
+                .copied()
+                .filter(|pk| !readonly_fetch_set.contains(pk))
+                .collect::<HashSet<_>>()
         };
         if !need_fetch.is_empty() && !self.allow_hot_path_rpc_fetch {
             let sample = need_fetch
@@ -1599,13 +1627,16 @@ impl Simulator {
                 .collect::<Vec<_>>()
                 .join(",");
             eprintln!(
-                "[hot_path_rpc_warning] reason=tx_account_missing_from_cache action=no_rpc_drop_or_synthetic count={} sample=[{}]",
-                need_fetch.len(),
+                "[hot_path_rpc_warning] reason=tx_account_missing_from_cache action=fetch_readonly_drop_writable readonly_fetch={} writable_drop={} sample=[{}]",
+                readonly_need_fetch.len(),
+                missing_without_rpc.len(),
                 sample
             );
         }
         let fetched_accounts = if self.allow_hot_path_rpc_fetch {
             cache.get_many_or_fetch_hot(&need_fetch)
+        } else if !readonly_need_fetch.is_empty() {
+            cache.get_many_or_fetch_hot(&readonly_need_fetch)
         } else {
             HashMap::new()
         };
