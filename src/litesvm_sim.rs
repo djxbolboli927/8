@@ -2841,15 +2841,24 @@ fn is_registered_program_id(pk: &Pubkey) -> bool {
 }
 
 fn should_synthetic_readonly_system(meta: &TxAccountMeta) -> bool {
-    // Fail-open only for readonly, non-signer data accounts when hot-path RPC
-    // is disabled. This lets LiteSVM actually execute and, if the program
-    // needs real data/owner, the existing RPC-snapshot retry path can replace
-    // the synthetic account with chain state.
+    // A synthetic placeholder is an EMPTY, System-owned account. It is only safe
+    // for accounts that the program treats as a bare address it never reads the
+    // owner/data of — in practice the readonly extras that arrive via an Address
+    // Lookup Table (`AltReadonly`). This matches the reference implementation.
     //
-    // Never synthesize executable/runtime accounts: sysvars, built-ins, and
-    // registered DEX/Jupiter program IDs are handled by LiteSVM or by the
-    // program loader path and must not become empty System accounts.
+    // It must NOT be widened to "any readonly account": a program's readonly
+    // *context* accounts (e.g. Jupiter's / a DEX's config/authority/oracle PDAs,
+    // a token mint) are owned by that program or by SPL-Token, and faking them as
+    // empty System accounts makes the program's owner/discriminator validation
+    // fail immediately — observed as Jupiter RouteV2 reverting with
+    // `Custom(6024)` at ~2400 CU before any DEX is invoked. Such accounts must be
+    // loaded with their real on-chain state (see the readonly RPC fetch in
+    // `simulate`); if they are genuinely missing, the route is dropped (fail
+    // closed) rather than executed against corrupted state.
     if meta.is_writable || meta.is_signer {
+        return false;
+    }
+    if meta.source != TxAccountSource::AltReadonly {
         return false;
     }
     if is_known_sysvar(&meta.pubkey) || is_builtin_program(&meta.pubkey) {
