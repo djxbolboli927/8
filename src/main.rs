@@ -200,12 +200,12 @@ async fn async_main(config: config::Config) -> Result<()> {
         let tx_static_account_cache_path = manual_accounts_root.join("tx_static_account_cache.json");
 
         manual_sim_accounts::load_cached_accounts_into_cache(&manual_account_cache_path, &cache)?;
-        auto_missing_accounts::load_cache_into_account_cache(&manual_accounts_root, &cache);
         cache.load_tx_static_account_cache(&tx_static_account_cache_path)?;
-        // Real runtime bridge for problem_sim_accounts.csv:
-        // every 60s it promotes needs_grpc_live_state rows into startup RPC
-        // snapshots + live gRPC subscriptions, and writes a deduped load.txt.
-        cache.spawn_problem_accounts_watcher(manual_accounts_root.clone(), 60);
+        // (Simplified) The auto-missing learning loop and the
+        // problem_sim_accounts.csv watcher were removed: pool/vault/mint state is
+        // kept fresh by the Yellowstone subscription + startup mix.json prefetch,
+        // and a genuinely-missing required account is handled inline by the
+        // simulator (route dropped fail-closed).
         let tx_static_refresh_accounts =
             cache.tx_static_refresh_pubkeys(&tx_static_account_cache_path)?;
         manual_sim_accounts::fetch_and_cache_startup_accounts(

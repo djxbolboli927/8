@@ -667,7 +667,12 @@ fn log_new_sim_error(
     }
 }
 
+// Neutralized: problem_sim_accounts.json is no longer written. The simulator
+// handles a missing required account inline (drop fail-closed); this artifact
+// was diagnostic-only noise. Body kept (unreachable) so nothing else changes.
+#[allow(unreachable_code, unused_variables, unused_mut)]
 fn append_problem_record(path: &Path, mut rec: serde_json::Value) {
+    return;
     if let Some(parent) = path.parent() { let _ = std::fs::create_dir_all(parent); }
     let key = rec.get("key").and_then(|v| v.as_str()).unwrap_or_default().to_string();
     let mut items = match std::fs::read(path) {
@@ -723,7 +728,10 @@ fn append_problem_record(path: &Path, mut rec: serde_json::Value) {
     }
 }
 
+// Neutralized: problem_sim_accounts.csv is no longer written (see above).
+#[allow(unreachable_code, unused_variables)]
 fn upsert_problem_csv(path: &Path, key: &str, pubkey: &str, severity: &str, classification: &str, action: &str, pool: &str, role: &str, dex: &str, now: u64) {
+    return;
     if let Some(parent) = path.parent() { let _ = std::fs::create_dir_all(parent); }
 
     // The old implementation appended every hit and could create millions of lines.
