@@ -23,3 +23,13 @@ target/
 # Claude Code internal data
 .claude/
 ```
+# ── Secrets (NEVER commit) ──────────────────────────────────────────────
+wallet/
+*.json.key
+config.toml
+*keypair*.json
+*wallet*.json
+grpc*.json
+id.json
+*.pem
+*.key
