@@ -1351,6 +1351,14 @@ pub async fn scan_all_tokens(
         let route_has_alphaq = route_plan_mentions_alphaq(&merged.route_plan);
         let route_labels = route_labels_summary(&merged.route_plan);
         let route_programs = route_programs_summary(&merged.route_plan);
+        crate::route_debug::log_route(
+            &config.performance.route_debug_path,
+            &ctx.user_pubkey,
+            sig,
+            pair.only_direct,
+            hop_count,
+            &merged.route_plan,
+        );
         let route_mentions_opaque = !tc.ignore_opaque_dex
             && route_plan_mentions_opaque_dex(&merged.route_plan);
         let force_fresh_metis = tc.force_fresh_metis_all || route_mentions_opaque;

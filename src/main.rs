@@ -17,6 +17,7 @@ mod metrics;
 mod mix_registry;
 mod program_registry;
 mod rate_limiter;
+mod route_debug;
 mod template_cache;
 mod token_metrics;
 mod tokens;
@@ -101,6 +102,16 @@ async fn async_main(config: config::Config) -> Result<()> {
     let token_mints = tokens::load_tokens(&config.trading.tokens_file)?;
 
     let trading_keypair = Arc::new(wallet::read_keypair(&config.jito.trading_keypair)?);
+    eprintln!(
+        "[signing_wallet] pubkey={} keypair_file={}",
+        trading_keypair.pubkey(),
+        config.jito.trading_keypair
+    );
+    route_debug::log_startup(
+        &config.performance.route_debug_path,
+        &trading_keypair.pubkey().to_string(),
+        true,
+    );
 
     // Match the RPC commitment to the Yellowstone stream commitment
     // (processed) so account fetches, sim-compare, and retry snapshots read

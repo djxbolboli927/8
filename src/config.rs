@@ -271,6 +271,12 @@ pub struct PerformanceConfig {
     pub queue_max_age_ms: u64,
     #[serde(default)]
     pub bot_cpu_cores: Vec<usize>,
+    /// Optional JSON-lines debug log. When non-empty, the signing wallet and
+    /// the exact route Metis returns (per-hop input/output mints) are appended
+    /// for every candidate, so the operator can confirm the signer and that all
+    /// routes are direct (e.g. WSOL->USDC, USDC->WSOL). Empty string disables it.
+    #[serde(default)]
+    pub route_debug_path: String,
 }
 
 fn default_max_concurrent_quotes() -> usize {
