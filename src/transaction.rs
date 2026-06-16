@@ -92,26 +92,24 @@ pub fn build_arb_transaction(
 ) -> Result<VersionedTransaction> {
     let mut instructions: Vec<Instruction> = Vec::new();
 
-    // #1 -- SetComputeUnitLimit
+    // The transaction is deliberately EXACTLY three instructions, in this order:
+    //   #1  ComputeBudget: SetComputeUnitLimit
+    //   #2  Jupiter Aggregator v6: route_v2  (the whole circular swap)
+    //   #3  System: transfer                 (the Jito tip)
     //
-    // `cu_limit` from the config table budgets the *swap* (route_v2) only. The
-    // transaction also runs ATA CreateIdempotent setup instructions (and an
-    // optional cleanup) that each burn ~9k CU before the swap starts. Without
-    // explicit headroom these eat into the swap budget and the final hop dies
-    // with ComputationalBudgetExceeded — even though the route is profitable
-    // and would land on-chain with a larger limit.
-    //
-    // There is no SetComputeUnitPrice instruction in this tx, so a higher CU
-    // limit costs nothing (no priority fee; the Jito tip is fixed separately).
-    // We therefore add generous per-instruction headroom and cap at Solana's
-    // per-transaction maximum.
-    const SETUP_IX_CU_BUDGET: u32 = 15_000;
+    // Metis's `setup_instructions` (ATA CreateIdempotent) and `cleanup_instruction`
+    // are intentionally NOT included. The trading wallet's ATAs (WSOL/USDC/USDT)
+    // are pre-created, so those instructions are unnecessary; including them would
+    // (a) bloat the tx to six instructions and (b) make the locally simulated
+    // transaction differ from what is actually sent to Jito. The exact bytes we
+    // simulate must be the exact bytes we submit.
+
+    // #1 -- SetComputeUnitLimit. The route_v2 swap is the only CU consumer now,
+    // so the configured per-hop `cu_limit` is used directly (capped at Solana's
+    // per-transaction maximum). No SetComputeUnitPrice is added (no priority
+    // fee; the Jito tip is a separate transfer).
     const MAX_TX_CU_LIMIT: u32 = 1_400_000;
-    let aux_ix_count = swap_ixs.setup_instructions.len() as u32
-        + u32::from(swap_ixs.cleanup_instruction.is_some());
-    let effective_cu_limit = cu_limit
-        .saturating_add(aux_ix_count.saturating_mul(SETUP_IX_CU_BUDGET))
-        .min(MAX_TX_CU_LIMIT);
+    let effective_cu_limit = cu_limit.min(MAX_TX_CU_LIMIT);
     let cu_limit_ix = Instruction {
         program_id: Pubkey::from_str("ComputeBudget111111111111111111111111111111")?,
         accounts: vec![],
@@ -123,18 +121,9 @@ pub fn build_arb_transaction(
     };
     instructions.push(cu_limit_ix);
 
-    // #2 -- Metis setup instructions, if any.
-    for ix in &swap_ixs.setup_instructions {
-        instructions.push(to_sdk_instruction(ix)?);
-    }
-
-    // #3 -- Single route_v2 for the entire circular swap.
+    // #2 -- Single route_v2 for the entire circular swap. Setup/cleanup from
+    // Metis are intentionally dropped (see the note above).
     instructions.push(to_sdk_instruction(&swap_ixs.swap_instruction)?);
-
-    // #4 -- Metis cleanup instruction, if any.
-    if let Some(ix) = &swap_ixs.cleanup_instruction {
-        instructions.push(to_sdk_instruction(ix)?);
-    }
 
     // Fetch ALTs via cache (instant on hit, RPC on first miss only)
     let mut alt_addresses: Vec<Pubkey> = Vec::new();
@@ -151,7 +140,7 @@ pub fn build_arb_transaction(
         address_lookup_tables.push(alt_account);
     }
 
-    // #5 -- Jito tip (MUST be last, MUST NOT be in ALT). Pick a tip account
+    // #3 -- Jito tip (MUST be last, MUST NOT be in ALT). Pick a tip account
     // that is absent from this transaction's lookup tables instead of mutating
     // ALT address lists, because changing ALT order changes on-chain indexes.
     let tip_candidates: Vec<Pubkey> = JITO_TIP_ACCOUNTS
