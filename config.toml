@@ -4,8 +4,8 @@ binary_key = "5b945476-f95d-4403-a2b5-156db4ee3212"
 
 [trading]
 min_amount_sol = 0.001
-max_amount_sol = 0.1
-step_sol = 0.0002
+max_amount_sol = 0.05
+step_sol = 0.0001
 # حداقل سود ناخالص (lamport) برای عبور از Stage 1.
 # فقط روی تعداد profitable و ارسال به swap_instructions تأثیر دارد.
 # خروجی نهایی on-chain همچنان ورودی + 10000 لمپرت باقی می‌ماند.
@@ -158,7 +158,7 @@ endpoints = [
 ]
 # این ولت توسط جیتو whitelist شده — هیچ دارایی‌ای نگه نمی‌دارد و هیچ
 # تراکنشی امضا نمی‌کند. فقط برای احراز هویت اتصال gRPC استفاده می‌شود.
-auth_keypair = "/root/c/wallet/grpc.json"
+auth_keypair = "/root/s/wallet/grpc.json"
 max_bundles_per_second = 5
 
 [template_cache]
