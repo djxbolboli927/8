@@ -35,6 +35,13 @@ pub struct TradingConfig {
     #[allow(dead_code)]
     pub base_fee_lamports: u64,
     pub tokens_file: String,
+    /// When true, the scanner ONLY requests direct (single-hop-per-leg) routes
+    /// from Metis (`onlyDirectRoutes=true`) and skips the free/multi-hop scan
+    /// entirely. The multi-hop code path is left intact — it is just not fed
+    /// any work while this is on. Default false preserves the legacy behaviour
+    /// of scanning both free and direct routes.
+    #[serde(default)]
+    pub direct_routes_only: bool,
 }
 
 #[derive(Debug, Deserialize, Clone)]

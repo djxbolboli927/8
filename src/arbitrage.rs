@@ -1276,18 +1276,31 @@ pub async fn scan_all_tokens(
     // Note: free routes (only_direct=false) often return multi-hop paths that
     // are filtered later by the hop_count==2 gate, but direct routes that
     // happen to share the same 2-hop structure ARE also included.
+    // When `direct_routes_only` is set, the free/multi-hop scan is disabled:
+    // only direct-route entries (only_direct=true) are queued. The multi-hop
+    // code path below (hop_count>2 handling, free-route merge) is untouched and
+    // simply receives no work, so it can be re-enabled by flipping the flag.
+    let direct_routes_only = config.trading.direct_routes_only;
     let all_pairs: Vec<(u64, String, bool)> = {
         let mut pairs = Vec::new();
         let mut amount = min_lamports;
         while amount <= max_lamports {
             for token_mint in token_mints {
-                pairs.push((amount, token_mint.clone(), false)); // free routes
+                if !direct_routes_only {
+                    pairs.push((amount, token_mint.clone(), false)); // free routes
+                }
                 pairs.push((amount, token_mint.clone(), true));  // direct routes only
             }
             amount += step_lamports;
         }
         pairs
     };
+    if direct_routes_only {
+        tracing::info!(
+            "[scan_mode] direct_routes_only=true — multi-hop/free routes disabled; \
+             only onlyDirectRoutes=true 2-hop candidates are scanned"
+        );
+    }
     let max_concurrent = config
         .performance
         .max_concurrent_quotes
