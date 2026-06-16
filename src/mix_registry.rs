@@ -580,6 +580,19 @@ impl VerifiedMixRegistry {
         out
     }
 
+    /// Distinct DEX program ids that own the verified pools. Used to extend the
+    /// Yellowstone owner filter so every configured pool's state streams live,
+    /// even for DEX programs that are not hard-coded in `program_registry`
+    /// (e.g. BisonFi). Without this, such a pool's state is fetched once from
+    /// RPC and then goes stale, surfacing as a bad/invalid account in sim.
+    pub fn pool_owner_program_ids(&self) -> Vec<Pubkey> {
+        let inner = self.inner.read().unwrap();
+        let mut out = inner.pool_owner.values().copied().collect::<Vec<_>>();
+        out.sort_unstable();
+        out.dedup();
+        out
+    }
+
     pub fn alt_accounts(&self) -> Vec<Pubkey> {
         let inner = self.inner.read().unwrap();
         let mut out = inner

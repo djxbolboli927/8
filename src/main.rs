@@ -345,10 +345,30 @@ async fn async_main(config: config::Config) -> Result<()> {
             }
         }
 
+        // Owner filter = hard-coded program registry PLUS every DEX program
+        // that actually owns a configured pool (from mix.json and pools_by_dex).
+        // This guarantees pool STATE accounts stream live via gRPC even for DEX
+        // programs not listed in program_registry (e.g. BisonFi); otherwise
+        // their state is fetched once from RPC and then goes stale -> sim fails
+        // -> the pool lands in bad_accounts.
+        let mut owner_filter_ids = program_registry::all_program_ids();
+        if let Some(registry) = &mix_registry {
+            for owner in registry.pool_owner_program_ids() {
+                owner_filter_ids.push(owner.to_string());
+            }
+        }
+        owner_filter_ids.extend(dex_accounts::pool_owner_program_ids("pools_by_dex"));
+        owner_filter_ids.sort_unstable();
+        owner_filter_ids.dedup();
+        eprintln!(
+            "[grpc_owner_filter] programs={} (registry + configured pool owners)",
+            owner_filter_ids.len()
+        );
+
         cache.spawn_subscription(
             config.yellowstone_grpc.endpoint.clone(),
             config.yellowstone_grpc.x_token.clone(),
-            program_registry::all_program_ids(),
+            owner_filter_ids,
             live_extra,
         );
 

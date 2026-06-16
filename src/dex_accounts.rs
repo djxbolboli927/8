@@ -491,6 +491,42 @@ pub fn load_pools_by_dex_dir(pools_dir: &str) -> DexPools {
     }
 }
 
+/// Collect the distinct top-level `owner` program ids from every pool file in
+/// `pools_dir`. These are added to the Yellowstone owner filter so the pool
+/// STATE accounts (owned by the DEX program) stream live, even for DEX
+/// programs not hard-coded in `program_registry`. Returns base58 strings to
+/// match `program_registry::all_program_ids()`.
+pub fn pool_owner_program_ids(pools_dir: &str) -> Vec<String> {
+    let dir_path = std::path::Path::new(pools_dir);
+    let mut owners: Vec<String> = Vec::new();
+    let Ok(entries) = std::fs::read_dir(dir_path) else {
+        return owners;
+    };
+    for dir_entry in entries.flatten() {
+        let path = dir_entry.path();
+        if path.extension().and_then(|e| e.to_str()) != Some("json") {
+            continue;
+        }
+        let Ok(content) = std::fs::read_to_string(&path) else {
+            continue;
+        };
+        let Ok(pool_list) = serde_json::from_str::<Vec<serde_json::Value>>(&content) else {
+            continue;
+        };
+        for pool_json in &pool_list {
+            if let Some(owner) = pool_json.get("owner").and_then(|v| v.as_str()) {
+                // Only keep things that parse as a real pubkey.
+                if Pubkey::try_from(owner).is_ok() {
+                    owners.push(owner.to_string());
+                }
+            }
+        }
+    }
+    owners.sort_unstable();
+    owners.dedup();
+    owners
+}
+
 fn collect_pool_like_groups(value: &serde_json::Value) -> Vec<Vec<Pubkey>> {
     let mut own = Vec::new();
     collect_pubkeys_from_json(value, &mut own);
