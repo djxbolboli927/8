@@ -483,10 +483,9 @@ pub struct Pipeline {
 /// block each other — a direct-route timeout does not delay the free-route
 /// check for the same token.
 ///
-/// Both free (only_direct=false) and direct (only_direct=true) routes are
-/// scanned for every token.  Free routes may return multi-hop paths
-/// (hop_count > 2) which are also sent to /swap-instructions when profitable.
-/// Direct routes should always be 2-hop (1 hop per leg).
+/// Only direct routes (only_direct=true) are scanned: Metis is asked for
+/// single-hop swaps via onlyDirectRoutes=true, so every circular candidate is
+/// exactly 2-hop (1 hop per leg). Multi-hop / free routes are disabled.
 async fn quote_check(
     metis: &MetisClient,
     token_mint: &str,
@@ -1270,19 +1269,17 @@ pub async fn scan_all_tokens(
         .saturating_add(NETWORK_FEE_LAMPORTS)
         .saturating_add(config.performance.metis_latency_margin_lamports);
 
-    // Each (amount, token) generates two independent entries: free routes and
-    // direct-only routes. They run concurrently so a slow/timing-out direct
-    // request never blocks the free-route check for the same token.
-    // Note: free routes (only_direct=false) often return multi-hop paths that
-    // are filtered later by the hop_count==2 gate, but direct routes that
-    // happen to share the same 2-hop structure ARE also included.
+    // Direct routes ONLY. Free (multi-hop) routes are disabled: we never ask
+    // Metis for paths that pass through intermediate tokens, so every quote
+    // returned is a single-hop swap and every circular candidate is exactly
+    // 2-hop. Each (amount, token) therefore generates a single direct-only
+    // scan entry (only_direct=true).
     let all_pairs: Vec<(u64, String, bool)> = {
         let mut pairs = Vec::new();
         let mut amount = min_lamports;
         while amount <= max_lamports {
             for token_mint in token_mints {
-                pairs.push((amount, token_mint.clone(), false)); // free routes
-                pairs.push((amount, token_mint.clone(), true));  // direct routes only
+                pairs.push((amount, token_mint.clone(), true)); // direct routes only
             }
             amount += step_lamports;
         }
@@ -1327,9 +1324,10 @@ pub async fn scan_all_tokens(
             "send_candidate"
         );
 
-        // Direct routes (only_direct=true) must be exactly 2-hop.
-        // Free routes (only_direct=false) may be multi-hop — all are forwarded.
-        if pair.only_direct && pair.hop_count != 2 {
+        // Only direct routes are scanned, so every candidate must be exactly
+        // 2-hop (1 hop per leg). Anything else is a multi-hop path and is
+        // dropped as a safety net so no multi-hop route is ever forwarded.
+        if pair.hop_count != 2 {
             metrics.dropped_multi_hop.fetch_add(1, Ordering::Relaxed);
             metrics.tx_dropped.fetch_add(1, Ordering::Relaxed);
             continue;
