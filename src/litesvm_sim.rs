@@ -1549,6 +1549,10 @@ impl Simulator {
         let mut synthetic_readonly_system_accounts: HashSet<Pubkey> = HashSet::new();
         let mut lazy_fetched = 0usize;
         let mut need_fetch = Vec::new();
+        // Writable accounts served from a non-gRPC (RPC/manual) source. These
+        // are the prime suspects behind "valid on-chain but bot errors it":
+        // pool/vault state that the live stream has not (yet) refreshed.
+        let mut rpc_only_writable: usize = 0;
 
         // Warm transaction-local accounts that are not part of mix.json.
         // Non-executable accounts are safe to fetch and inject. Executable
@@ -1569,6 +1573,8 @@ impl Simulator {
                             "program_not_loaded",
                         );
                         missing_programs.push(*meta);
+                    } else if meta.is_writable && !cache.account_is_grpc_live(pk) {
+                        rpc_only_writable += 1;
                     }
                 }
                 None => {
@@ -1586,6 +1592,12 @@ impl Simulator {
             }
         }
 
+        if rpc_only_writable > 0 {
+            eprintln!(
+                "[sim_writable_not_grpc_live] route_sig={:032x} count={} note=writable_pool_or_vault_state_served_from_rpc_not_yet_grpc_live",
+                route_sig, rpc_only_writable
+            );
+        }
         let missing_without_rpc = if self.allow_hot_path_rpc_fetch {
             HashSet::new()
         } else {

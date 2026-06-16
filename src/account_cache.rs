@@ -65,6 +65,9 @@ pub struct AccountCache {
     /// to skip redundant per-account subscriptions for pool state that the
     /// owner filter already streams.
     dex_owner_set: Arc<RwLock<HashSet<Pubkey>>>,
+    /// Freshness metadata (slot / write_version / source) per account, used to
+    /// keep the gRPC stream authoritative and reject stale overwrites.
+    meta: Arc<DashMap<Pubkey, AccountMeta>>,
 }
 
 #[derive(Clone, Debug)]
@@ -72,6 +75,68 @@ pub enum AccountFetchResult {
     Found(Account),
     NotFound,
     Error { kind: String, message: String },
+}
+
+/// Where a cached account's current value came from. The Yellowstone gRPC
+/// stream is authoritative for live pool/vault state; RPC and on-disk
+/// (manual/static) loads are only a bootstrap and must never overwrite a
+/// value that the stream has already delivered.
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+pub enum AccountSource {
+    Grpc,
+    Rpc,
+    Manual,
+}
+
+/// Per-account freshness metadata kept in a side map so the public
+/// `get()` API still returns a plain `Account`.
+#[derive(Clone, Copy, Debug)]
+struct AccountMeta {
+    slot: u64,
+    write_version: u64,
+    source: AccountSource,
+}
+
+/// Single choke point for every cache write. Enforces:
+///   * a gRPC update never regresses to an older slot / write_version, and
+///   * RPC / manual loads never clobber a value already sourced from gRPC.
+fn store_account(
+    inner: &DashMap<Pubkey, Account>,
+    meta: &DashMap<Pubkey, AccountMeta>,
+    pk: Pubkey,
+    account: Account,
+    slot: u64,
+    write_version: u64,
+    source: AccountSource,
+) {
+    if let Some(existing) = meta.get(&pk) {
+        match source {
+            AccountSource::Grpc => {
+                // Discard stale or duplicate stream updates.
+                if existing.source == AccountSource::Grpc
+                    && (slot < existing.slot
+                        || (slot == existing.slot && write_version <= existing.write_version))
+                {
+                    return;
+                }
+            }
+            AccountSource::Rpc | AccountSource::Manual => {
+                // gRPC is authoritative once it has delivered a value.
+                if existing.source == AccountSource::Grpc {
+                    return;
+                }
+            }
+        }
+    }
+    inner.insert(pk, account);
+    meta.insert(
+        pk,
+        AccountMeta {
+            slot,
+            write_version,
+            source,
+        },
+    );
 }
 
 #[derive(Clone, Debug)]
@@ -174,6 +239,7 @@ impl AccountCache {
             dynamic_accounts: Arc::new(Mutex::new(HashSet::new())),
             resubscribe_notify: Arc::new(Notify::new()),
             dex_owner_set: Arc::new(RwLock::new(HashSet::new())),
+            meta: Arc::new(DashMap::with_capacity(4096)),
         }
     }
 
@@ -296,7 +362,45 @@ impl AccountCache {
     }
 
     pub fn insert_manual(&self, pubkey: Pubkey, account: Account) {
-        self.inner.insert(pubkey, account);
+        self.store_manual(pubkey, account);
+    }
+
+    /// Store an account fetched from RPC. Never overwrites a value the gRPC
+    /// stream has already delivered (see `store_account`).
+    fn store_rpc(&self, pubkey: Pubkey, account: Account) {
+        store_account(
+            &self.inner,
+            &self.meta,
+            pubkey,
+            account,
+            0,
+            0,
+            AccountSource::Rpc,
+        );
+    }
+
+    /// Store an account from a manual / on-disk static load. Same gRPC-wins
+    /// guarantee as `store_rpc`.
+    fn store_manual(&self, pubkey: Pubkey, account: Account) {
+        store_account(
+            &self.inner,
+            &self.meta,
+            pubkey,
+            account,
+            0,
+            0,
+            AccountSource::Manual,
+        );
+    }
+
+    /// True when the current cached value for `pubkey` came from the live
+    /// Yellowstone stream (not just an RPC/manual bootstrap). The simulator
+    /// uses this to refuse pool-critical state that is only RPC-backed.
+    pub fn account_is_grpc_live(&self, pubkey: &Pubkey) -> bool {
+        self.meta
+            .get(pubkey)
+            .map(|m| m.source == AccountSource::Grpc)
+            .unwrap_or(false)
     }
 
     pub fn load_tx_static_account_cache(&self, path: impl AsRef<Path>) -> Result<usize> {
@@ -337,7 +441,7 @@ impl AccountCache {
                 skipped += 1;
                 continue;
             };
-            self.inner.insert(
+            self.store_manual(
                 pubkey,
                 Account {
                     lamports: entry.lamports,
@@ -399,7 +503,7 @@ impl AccountCache {
             .get_account(pubkey)
             .with_context(|| format!("RPC fetch of {pubkey} failed"))?;
         let account = rpc_account_to_cache_account(acct);
-        self.inner.insert(*pubkey, account.clone());
+        self.store_rpc(*pubkey, account.clone());
         self.persist_tx_static_account(*pubkey, &account, "tx_static_unknown");
         Ok(account)
     }
@@ -435,7 +539,7 @@ impl AccountCache {
                             match acct_opt {
                                 Some(acct) => {
                                     let account = rpc_account_to_cache_account(acct);
-                                    self.inner.insert(*pk, account.clone());
+                                    self.store_rpc(*pk, account.clone());
                                     self.persist_tx_static_account(
                                         *pk,
                                         &account,
@@ -567,7 +671,7 @@ impl AccountCache {
                                 match acct_opt {
                                     Some(acct) => {
                                         let account = rpc_account_to_cache_account(acct);
-                                        self.inner.insert(*pk, account);
+                                        self.store_rpc(*pk, account);
                                         fetched += 1;
                                     }
                                     None => {
@@ -1097,6 +1201,7 @@ impl AccountCache {
         }
 
         let cache = self.inner.clone();
+        let meta = self.meta.clone();
         let stream_slot = self.stream_slot.clone();
         let stream_unix_timestamp = self.stream_unix_timestamp.clone();
         let timestamp_seed_slot = self.timestamp_seed_slot.clone();
@@ -1112,6 +1217,7 @@ impl AccountCache {
                     &dex_program_ids,
                     &extra_accounts,
                     &cache,
+                    &meta,
                     &stream_slot,
                     &stream_unix_timestamp,
                     &timestamp_seed_slot,
@@ -1606,6 +1712,7 @@ async fn run_stream(
     dex_program_ids: &[String],
     extra_accounts: &[Pubkey],
     cache: &Arc<DashMap<Pubkey, Account>>,
+    meta: &Arc<DashMap<Pubkey, AccountMeta>>,
     stream_slot: &Arc<AtomicU64>,
     stream_unix_timestamp: &Arc<AtomicI64>,
     timestamp_seed_slot: &Arc<AtomicU64>,
@@ -1713,7 +1820,17 @@ async fn run_stream(
                                 executable: info.executable,
                                 rent_epoch: info.rent_epoch,
                             };
-                            cache.insert(pk, account);
+                            // Slot/write_version-guarded: a stale or duplicate
+                            // stream message can never regress newer state.
+                            store_account(
+                                cache,
+                                meta,
+                                pk,
+                                account,
+                                a.slot,
+                                info.write_version,
+                                AccountSource::Grpc,
+                            );
                             count += 1;
                             if count % 10_000 == 0 {
                                 debug!(count, size = cache.len(), "cache growth");
