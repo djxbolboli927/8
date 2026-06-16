@@ -634,7 +634,8 @@ pub fn spawn_workers(
                 let alt = ctx_c.alt_cache.clone();
                 let rpc = ctx_c.rpc_client.clone();
                 let min_wsol_gain = item.min_wsol_gain;
-                let should_simulate = item.should_simulate;
+                // Kept for diagnostics only; simulation is mandatory below.
+                let _should_simulate = item.should_simulate;
                 let ix_source = item.ix_source;
                 let route_sig = item.route_sig;
                 let route_labels = item.route_labels.clone();
@@ -701,7 +702,14 @@ pub fn spawn_workers(
                     Ok(_) => {}
                 }
 
-                if should_simulate {
+                // ── Mandatory pre-flight simulation ──────────────────────────────
+                // A transaction may reach Jito ONLY after a successful local
+                // simulation. This block is unconditional: if the simulator is
+                // unavailable (e.g. simulation disabled -> sim_cache / sim_pool are
+                // None) the candidate is dropped here instead of being sent blind.
+                // The ONLY way to fall through to the Jito send below is a
+                // successful simulate() — every failure path does `continue`.
+                {
                     eprintln!(
                         "[sim_candidate] source={} route_sig={:032x} hop_count={} route_labels={} programs={} alphaq={}",
                         ix_source.as_str(),
@@ -1395,12 +1403,13 @@ pub async fn scan_all_tokens(
                 continue;
             }
         }
-        let should_simulate = simulation_enabled;
-        if should_simulate {
-            metrics.sim_required.fetch_add(1, Ordering::Relaxed);
-        } else {
-            metrics.sim_bypassed.fetch_add(1, Ordering::Relaxed);
-        }
+        // Simulation is mandatory: every candidate must pass local simulation
+        // before it can be sent to Jito. We no longer honour an "off" switch
+        // here — if simulation infrastructure is unavailable the worker drops
+        // the candidate instead of sending it un-simulated.
+        let should_simulate = true;
+        metrics.sim_required.fetch_add(1, Ordering::Relaxed);
+        let _ = simulation_enabled;
         let allow_template_serving = tc.serve_route && !force_fresh_metis;
         if force_fresh_metis {
             eprintln!(
