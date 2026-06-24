@@ -1025,19 +1025,25 @@ impl Simulator {
             route_programs,
             ix_source,
         );
-        compare_tx_accounts_with_rpc_for_failed_program(
-            self,
-            failed_program,
-            cache,
-            account_metas,
-            synthetic_readonly_system_accounts,
-            created_by_setup,
-            route_sig,
-            route_labels,
-            route_programs,
-            ix_source,
-            metrics,
-        );
+        // Slippage reverts (Jupiter 6001 / 0x1771) mean the route executed fine
+        // but was no longer profitable at sim time — every account is valid. Do
+        // NOT run the cache/RPC compare for these, or it floods problem_sim/
+        // bad_accounts with healthy pool state, vaults, and the fee payer.
+        if !is_slippage_revert(lite_err) {
+            compare_tx_accounts_with_rpc_for_failed_program(
+                self,
+                failed_program,
+                cache,
+                account_metas,
+                synthetic_readonly_system_accounts,
+                created_by_setup,
+                route_sig,
+                route_labels,
+                route_programs,
+                ix_source,
+                metrics,
+            );
+        }
         dump_failed_program_context_window(
             failed_program,
             tx,
@@ -3282,26 +3288,47 @@ fn compare_tx_accounts_with_rpc_for_failed_program(
             classification = "expected_readonly_pda_authority";
             action = "ignore_not_found_do_not_fetch";
         } else if is_live_state_hash_mismatch(meta, &cache_state, &rpc_state, &outcome) {
-            outcome = AccountCompareOutcome::new(
-                true,
-                "live_state_data_hash_mismatch_refresh_needed",
-                outcome.owner_match,
-                outcome.data_len_match,
-                outcome.lamports_match,
-                outcome.data_hash_match,
-            );
-            classification = "live_state_stale";
-            action = "refresh_from_grpc_or_rpc_snapshot";
-            eprintln!(
-                "[sim_live_state_stale] route_sig={:032x} source={} failed_program={} pubkey={} owner={} account_source={} is_writable={} reason=data_hash_mismatch action=refresh_from_grpc_or_rpc_snapshot",
-                route_sig,
-                ix_source,
-                failed_program,
-                meta.pubkey,
-                cache_state.owner,
-                meta.source.as_str(),
-                meta.is_writable
-            );
+            if rpc_context_slot > cache_slot {
+                // RPC is genuinely ahead of the gRPC cache: the cached value may
+                // actually be stale. This is the only case worth flagging.
+                outcome = AccountCompareOutcome::new(
+                    true,
+                    "live_state_data_hash_mismatch_refresh_needed",
+                    outcome.owner_match,
+                    outcome.data_len_match,
+                    outcome.lamports_match,
+                    outcome.data_hash_match,
+                );
+                classification = "live_state_stale";
+                action = "refresh_from_grpc_or_rpc_snapshot";
+                eprintln!(
+                    "[sim_live_state_stale] route_sig={:032x} source={} failed_program={} pubkey={} owner={} account_source={} is_writable={} cache_slot={} rpc_context_slot={} reason=rpc_ahead_of_cache action=refresh_from_grpc_or_rpc_snapshot",
+                    route_sig,
+                    ix_source,
+                    failed_program,
+                    meta.pubkey,
+                    cache_state.owner,
+                    meta.source.as_str(),
+                    meta.is_writable,
+                    cache_slot,
+                    rpc_context_slot
+                );
+            } else {
+                // cache_slot >= rpc_context_slot: the gRPC cache is newer than (or
+                // level with) the RPC snapshot. The data_hash differs only because
+                // RPC is one or more slots behind — the cache is NOT stale. Do not
+                // flag it; gRPC is authoritative.
+                outcome = AccountCompareOutcome::new(
+                    true,
+                    "rpc_behind_keep_grpc_cache",
+                    outcome.owner_match,
+                    outcome.data_len_match,
+                    outcome.lamports_match,
+                    outcome.data_hash_match,
+                );
+                classification = "rpc_behind";
+                action = "keep_grpc_cache";
+            }
         }
 
         if !outcome.matches_rpc {
@@ -3384,7 +3411,14 @@ fn compare_tx_accounts_with_rpc_for_failed_program(
             );
         }
 
-        if classification != "normal" || !outcome.matches_rpc {
+        // Never record the fee payer / any signer (it is in every tx and is not
+        // a pool account), RPC-behind skew (gRPC is newer), or expected readonly
+        // PDA authorities as bad/problem accounts.
+        let skip_problem_record = meta.is_signer
+            || meta.pubkey == sim.payer_pubkey
+            || classification == "rpc_behind"
+            || classification == "expected_readonly_pda_authority";
+        if !skip_problem_record && (classification != "normal" || !outcome.matches_rpc) {
             write_problem_sim_account(
                 sim,
                 meta,

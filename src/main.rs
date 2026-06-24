@@ -139,6 +139,44 @@ async fn async_main(config: config::Config) -> Result<()> {
         eprintln!("[rpc_fallback] configured {} fallback RPC(s)", fallback_rpcs.len());
     }
 
+    // Mandatory wallet check. The trading wallet / fee payer MUST be a plain
+    // System-owned account with no data (not a nonce account, PDA, or token
+    // account). Refuse to start otherwise so the bot never signs and pays fees
+    // with a misconfigured wallet.
+    {
+        let payer_pk = trading_keypair.pubkey();
+        match rpc_client.get_account(&payer_pk) {
+            Ok(acct) => {
+                let owner_ok = acct.owner == solana_sdk::system_program::id();
+                let data_ok = acct.data.is_empty();
+                if owner_ok && data_ok {
+                    eprintln!(
+                        "[wallet_check] pubkey={} owner={} data_len={} executable={} balance_lamports={} status=ok",
+                        payer_pk, acct.owner, acct.data.len(), acct.executable, acct.lamports
+                    );
+                } else {
+                    eprintln!(
+                        "[wallet_check] pubkey={} owner={} data_len={} executable={} balance_lamports={} status=fatal reason=wallet_not_plain_system_account",
+                        payer_pk, acct.owner, acct.data.len(), acct.executable, acct.lamports
+                    );
+                    bail!(
+                        "wallet_check failed: {} is not a plain System account (owner={}, data_len={})",
+                        payer_pk,
+                        acct.owner,
+                        acct.data.len()
+                    );
+                }
+            }
+            Err(e) => {
+                eprintln!(
+                    "[wallet_check] pubkey={} status=fatal reason=account_fetch_failed error={}",
+                    payer_pk, e
+                );
+                bail!("wallet_check failed: cannot fetch {payer_pk} from RPC: {e}");
+            }
+        }
+    }
+
     let wsol_mint = solana_sdk::pubkey::Pubkey::from_str_const(tokens::WSOL_MINT);
     let wsol_ata = spl_associated_token_account::get_associated_token_address(
         &trading_keypair.pubkey(),
